@@ -1,8 +1,7 @@
-# Home : A repository to store documentation
+# Home : Java Springboot
 
-A template repository for documentation
+A repository to store Java Springboot information
 
-[A link to page one](pages/page-one.md)
+[Hands-On Spring Boot in 3 Weeks Course Details](pages/hands-on-spring-boot-in-3-weeks.md)
 
 ## A link to a diagram 
-![A link to a diagram](assets/slide2.png)
