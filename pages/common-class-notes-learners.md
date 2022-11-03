@@ -57,7 +57,22 @@ See if you are able to run it using maven.
 
 ## 3 Nov 22, Thursday
 
-Today's notes taken by : ?
+Today's notes taken by : Stelina
 Next day's notes will be taken by : ?
+
+1. **The application structure (continuation of yesterday's notes)**
+   - We can find a test Spring Boot class under the test folder that is called Application in the video class. Inside there we can see an anotation @SpringBootApplication which is equivalent to three separate annotation (@Configuration, @EnableAutoConfiguration, @ComponentScan). 
+
+2. **Run the application**
+   - Open the terminal on IntelliJ and there type: mvn spring-boot:run. If you don't have maven installen in your machine then you can type: mvnw spring-boot:run . When we run the application a lot of configurations happen and that's why it takes a lot of time for the Spring Boot applications to start. Another way to run the application is to click with the left side of your mouse and pick the "Run" option. 
+
+3. **How to create a web application (demo 3 on GitHub)**
+   - Most Spring Boot applications are web applications. 
+  ![webapp.png](../assets/webapp.png)
+   - Create a new Spring Boot application on IntelliJ and make sure to add the Spring Web dependency on the Dependencies section.
+
+4. **The structure of the Web Application**
+
+The video stopped at minute 73.
 
 >[Home](../README.md)
