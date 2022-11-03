@@ -3,6 +3,8 @@
 ## 2 Nov 22, Wednesday 
 
 Today's notes taken by : Ilda
+Next day's notes will be taken by : ?
+
 
 **Chapter 1**
 
@@ -53,5 +55,9 @@ Maven project with a pom.xml file with the information of your project.
 Exercise - create the basic spring app using the spring initilizer website
 See if you are able to run it using maven.
 
+## 3 Nov 22, Thursday
+
+Today's notes taken by : ?
+Next day's notes will be taken by : ?
 
 >[Home](../README.md)
