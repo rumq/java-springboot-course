@@ -49,7 +49,38 @@ Run the spring-boot command
 # Run spring boot application
 mvn spring-boot:run
 ```
+## 4 Nov 22, Friday
 
+### Creating simple Spring Boot project.
+
+Create a simple spring boot project following [02_Creating_Simple_App Pages 4 & 5](https://docs.google.com/presentation/d/1dRzG3eRyW2DAEgPZcUqeC-hp6hvnSVs4/edit#slide=id.p4)
+
+Steps 
+- Start IntelliJ, click New Project, and select Spring Initializr
+- Specify project info as follows:
+  - Enter a suitable project name and location
+  - Language - Java
+  - Enter a suitable group ID, artifact ID, and package name
+  - Project SDK - Java 11
+  - Java version - 11
+  - Packaging - JAR
+  - Then click Next
+
+### Understanding Maven
+
+**Paren Pom** : `org.springframework.boot` (groupId) , `spring-boot-starter-parent` (artifactId)
+
+**Spring Boot dependency** :  `org.springframework.boot` (groupId), `spring-boot-starter`(artifactId)
+
+**Spring Boot Test dependency** : `org.springframework.boot` (groupId), `spring-boot-starter-test` (artifactId)
+
+### Understanding Application code
+
+`@SpringBootAppplication` annotation is equivalent to:
+- `@Configuration`
+- `@EnableAutoConfiguration`
+- `@ComponentScan`
+ 
 
 
 >[Home](../README.md)
