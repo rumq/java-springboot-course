@@ -75,4 +75,22 @@ Next day's notes will be taken by : ?
 
 The video stopped at minute 73.
 
+
+## 4 Nov 22, Thursday
+
+Today's notes taken by : Lediana
+Next day's notes will be taken by : ?
+
+
+
+
+
+
+
+
+
+
+
+
+
 >[Home](../README.md)
