@@ -1,4 +1,4 @@
-package demo.beans.demo04;
+package demo.beans;
 
 import org.springframework.stereotype.Component;
 
