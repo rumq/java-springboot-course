@@ -8,10 +8,4 @@
 - [Course Github link ](https://github.com/andyolsen/spring-boot-in-3-weeks)
 
 
-## Pages
-
-- [Common class notes - Learners](common-class-notes-learners.md)
-- [Common class notes - PawarV](common-class-notes-pawarv.md)
-
-
 >[Home](../README.md)
