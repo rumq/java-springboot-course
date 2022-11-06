@@ -1,4 +1,4 @@
-package demo.di;
+package demo.di.field;
 
 import org.springframework.stereotype.Repository;
 
