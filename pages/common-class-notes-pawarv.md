@@ -1,5 +1,7 @@
 >[Home](../README.md)
 
+# Common class notes by PawarV 
+
 ## 2 Nov 22, Wednesday 
 
 Started today at Session 1 at 30 minutes
@@ -81,6 +83,10 @@ Steps
 - `@EnableAutoConfiguration`
 - `@ComponentScan`
  
+## 7 Nove 22, Monday
 
+Assignments
+1. Have you tried creating a basic Spring Boot App? Is it in our repo?
+2. Have you tried creating a basic Spring Boot Web App? Is it in our repo?
 
 >[Home](../README.md)

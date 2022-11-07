@@ -1,5 +1,7 @@
 >[Home](../README.md)
 
+# Common class notes by attendees
+
 ## 2 Nov 22, Wednesday 
 
 Today's notes taken by : Ilda
