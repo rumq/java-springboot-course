@@ -86,6 +86,8 @@ Next day's notes will be taken by : ?
 
 ## 7 Nov 22, Thursday
 
+Notes taken by: Ada
+s
 Creating a Spring Boot Web App
 
 When it is created as an Web app it has an embeded server such as Tom Cat and it usually run on port 8080
