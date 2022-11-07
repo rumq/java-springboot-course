@@ -84,10 +84,27 @@ Today's notes taken by : Lediana
 Next day's notes will be taken by : ?
 
 
+## 7 Nov 22, Thursday
 
+Creating a Spring Boot Web App
 
+When it is created as an Web app it has an embeded server such as Tom Cat and it usually run on port 8080
+Listen for HTTP request from web client (browser)and it return static or dynamic content. 
 
+**Create the Spring Boot Web App project:**
+1.Open IntellIJ or you can created through start.spring.io
+2. Click "New Project"
+3. Go to Spring iNtializr on the left side of the window and give your project a name
+4. Choose your location and the group name, package name
+5. Select java version 11 and packing **jar**
+6. Click Next 
+7. Choose dependency and click Web, select Spring Web dependency. Finish
 
+Change the version of the package to avoid the bug in spring boot
+
+The generated project is a regulare Maven project they have the pom file, where the dependencies are listed 
+
+The video stopped at minute 89. Slide number 8 on the Web App
 
 
 
