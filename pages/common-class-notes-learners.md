@@ -79,39 +79,83 @@ The video stopped at minute 73.
 
 
 ## 4 Nov 22, Thursday
-
-Today's notes taken by : Lediana
-Next day's notes will be taken by : ?
+Today's notes taken by : LedianaNext day's notes will be taken by : ?
 
 
-## 7 Nov 22, Thursday
-
+## 7 Nov 22, Monday
+ 
 Notes taken by: Ada
-s
-Creating a Spring Boot Web App
-
-When it is created as an Web app it has an embeded server such as Tom Cat and it usually run on port 8080
-Listen for HTTP request from web client (browser)and it return static or dynamic content. 
-
+ 
+### Creating a Spring Boot Web App
+ 
+When it is created as an Web app it has an embedded server such as Tom Cat and it usually run on port 8080
+Listen for HTTP requests from a web client (browser)and it returns static or dynamic content.
+ 
 **Create the Spring Boot Web App project:**
 1.Open IntellIJ or you can created through start.spring.io
 2. Click "New Project"
-3. Go to Spring iNtializr on the left side of the window and give your project a name
+3. Go to Spring Initializr on the left side of the window and give your project a name
 4. Choose your location and the group name, package name
 5. Select java version 11 and packing **jar**
-6. Click Next 
+6. Click Next
 7. Choose dependency and click Web, select Spring Web dependency. Finish
-
-Change the version of the package to avoid the bug in spring boot
-
-The generated project is a regulare Maven project they have the pom file, where the dependencies are listed 
-
+ 
+ 
+The generated project is a regular Maven project they have the pom file, where the dependencies are listed
+ 
 The video stopped at minute 89. Slide number 8 on the Web App
-
-
-
-
-
-
-
+ 
+## 08 Nov 22, Tuesday
+ 
+Notes taken by: Ada
+ 
+Introduction to Spring Boot class for new joiners
+Here is the link https://github.com/andyolsen/spring-boot-in-3-weeks with the class slides and codes
+ 
+Explaining web dependencies in pom.xml that are needed for this web app such as spring.framework.web
+ 
+In the static folder (src/main/resources/static) there's were you put your statics values or html code
+ 
+On the static folder create an index.html file
+ 
+```java
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Home</title>
+</head>
+<body>
+   Hello world!
+</body>
+</html>
+```
+ 
+Go to the main page inside java folder and add
+ 
+```
+System.out.println("**** BEFORE run() ****");
+SpringApplication.run(Demo03WebAppApplication.class, args);
+System.out.println(***** AFTER run()****)
+```
+If you run the application it will run in port 8080 and the TomCat server embedded and the index file
+Go to browser and http://localhost:8080/index.html to see your application and you will see the message the content from index.html
+Spring Boot has auto configuration so when you run it looks in your class path and it creates a tomcat object for you so it is automatically creating a web server and running it for you.
+ 
+### Application properties
+ 
+It is the folder where you initialise your properties. (src/main/resources/application.properties)
+ 
+server.port=8081   // now the application (TomCat) will run in port 8081
+ 
+So now it will look like this http://localhost:8081/index.html in your browser
+You only have to change the properties only if you want something else, because it has defaults that work properly
+ 
+Spring Boot it bootstraps your development
+ 
+ 
+We finished chap 03, tomorrow we will start chap 04_Beans_Dependency
+ 
+ 
 >[Home](../README.md)
+
