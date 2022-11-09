@@ -156,6 +156,31 @@ Spring Boot it bootstraps your development
  
 We finished chap 03, tomorrow we will start chap 04_Beans_Dependency
  
+ ## 09 Nov 22, Wednesday
  
+Notes taken by: Ada
+
+### Beans and Dependency Injections
+
+_Download the repository from GitHub https://github.com/andyolsen/spring-boot-in-3-weeks and open demo-04-beans-dependency-injections on IntellIJ_ 
+
+* A component is a class that spring boot will automatically create a new instance . 
+* _Annotations_ 
+   - @component
+   - @service
+   - @repository
+   - @controller/@restcontroller
+
+* A bean is an instance, an object
+* A depency injection is when one bean is automatically hooked up with another bean
+
+**Why we use dependency injection?**
+- Spring boot creates the objects in your project and to point to these objects we use depency inj
+  - @autowired -- automatically links objects
+
+Demo package: demo.beans
+
+_We left at minutes 99_
+
 >[Home](../README.md)
 
