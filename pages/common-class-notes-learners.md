@@ -182,5 +182,58 @@ Demo package: demo.beans
 
 _We left at minutes 99_
 
+ 
+## 10 Nov 22, Thursday
+ 
+Notes taken by: Ada
+ 
+Download the git repository https://github.com/andyolsen/spring-boot-in-3-weeks (_Here_ [java-corejava-2210/members/stelina.pema.2210/pages/clone-git-project.md] _you can find how to clone a git repo_)
+ 
+**Demo 02**
+1.Open demo-02-simple-app file from the repository that you downloaded
+1. Go to main/java/com/demo02SimpleAppApplication  and run the project
+ 
+**Demo 03**
+1.Open demo-03-simple-app file from the repository that you downloaded
+2. Go to main/java/com/demo03WebAppApplication and run the project
+3. Check the terminal for the port that the web app is running
+4. If you want to change what is printed on the main page go to index.html and edit the body
+ 
+ 
+**Demo 04**
+1.Open demo-04-beans-dependencyinjection from the repo that you download previously
+2. Go to src/main/java/demo/beans/Application and run the file (it will not start the TomCat because it didn't have web-starter dependency)
+ 
+ 
+Create a new java class and name it MyComponent2 in the same folder as MyComponent.java. Copy the classes inside MyComponent and run the application. Without the annotation it will not change anything if it is runned.
+ 
+ 
+Constructors have the name of the class for example (MyComponent.java):
+```
+@Component
+public class MyComponent {
+ 
+   public MyComponent() {
+       System.out.println("MyComponent bean created");
+   }
+```
+ 
+ 
+ 
+### What is TomCat?
+ 
+Tomcat is a Java HTTP web server environment in which Java code can also run. The default port is 8080, but you can change the default port on resources/application.properties
+ 
+### What is the difference between Simple App application vs Web Application
+ 
+On the Web app we have an extra folder inside the resources folder named static that is created by the spring web dependency, that is also another difference between the two projects.
+On the pom.xml you can compare the dependency between two projects, so on the web app we have spring-boot-starter-web dependency.
+ 
+**Exercise:** Make changes on the project and see the results
+ 
+
+
+
+
 >[Home](../README.md)
 
