@@ -231,9 +231,67 @@ On the pom.xml you can compare the dependency between two projects, so on the we
  
 **Exercise:** Make changes on the project and see the results
  
-
-
-
-
+ 
+## 11 Nov 22, Friday
+Notes taken by: Ada
+ 
+Walkthrough to gitHub java-spring-boot-course repository for new joiners
+ 
+Go to https://github.com/andyolsen/spring-boot-in-3-weeks repository and clone his repository to do so:
+1. Copy the code from gitHub
+2. Open CMD and type git clone and enter the link hit enter
+3. Open the repository in IntellIJ and open the project go to Demos and open the first  project
+4. Run the project
+ 
+**Download Java with IntellIJ**
+(_if you have an older or newer version than 11 of Java_)
+1.Go to file --> New Project --> JDK
+2. Click on Download JDK and pick version 11 and JDK 11 and click download. This will download Jav 11 in your machine
+ 
+ 
+**O'Reilly Videos**
+ 
+Application context contains lot's of beans where some of them are created automatically from spring boot.
+and definitely an instance of component.
+ 
+* When a Spring Boot application starts up, it creates beans and stores them in the "application context"
+_ctx is an application context_
+ 
+``` java spring boot
+ApplicationContext ctx = SpringApplication.run(Application.class, args);
+MyComponent bean = ctx.getBean(MyComponent.class);
+     System.out.println(bean);
+```
+ 
+When you run the application spring boot will look in the entire package and special in the bean folders looking for the component (@Component)
+ 
+SpringApplication.run displays the following information in your IDEA terminal
+ 
+```
+.   ____          _            __ _ _
+/\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+\\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+ '  |____| .__|_| |_|_| |_\__, | / / / /
+=========|_|==============|___/=/_/_/_/
+:: Spring Boot ::                (v2.5.4)
+ 
+2022-11-11 20:23:08.723  INFO 3030 --- [           main] demo.beans.Application                   : Starting Application using Java 19.0.1 on Adas-MacBook-Pro.local with PID 3030 (/Users/adadedja/Downloads/spring-boot-in-3-weeks/demos/demo-04-beans-dependencyinjection/target/classes started by adadedja in /Users/adadedja/Downloads/spring-boot-in-3-weeks/demos/demo-04-beans-dependencyinjection)
+2022-11-11 20:23:08.724  INFO 3030 --- [           main] demo.beans.Application                   : No active profile set, falling back to default profiles: default
+MyComponent bean created
+2022-11-11 20:23:09.405  INFO 3030 --- [           main] demo.beans.Application                   : Started Application in 1.156 seconds (JVM running for 2.011)
+Hi from MyComponent bean
+```
+ 
+Wackypackage
+Error message no such a bean found when a bean is outside the package where the file you are running is
+on @SpringBootApplication(scanBasePackages ="wackypackage")
+ 
+Minute 110 when we stopped the classes 04_beans
+ 
+ 
+ 
 >[Home](../README.md)
+ 
+ 
 
