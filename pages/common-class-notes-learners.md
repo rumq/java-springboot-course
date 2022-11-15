@@ -283,8 +283,37 @@ Notes taken by: Sahil
 - `@scope` defines when is the bean created. by default the scope is `singleton`. Which mean there will only be one instance of it and we will get the same object again and again no matter how many times we call that bean.
 
 - Assignment
-   - Create a new component in a new package and try to use this component in main class
+  - Create a new component in a new package and try to use this component in main class
 
 We stopped at 114 slide 9
+
+## 15 Nov 2022, Tuesday
+
+Notes take by: Sahil
+
+- **O'Reilly Videos**
+
+- What is service annotation: service annotation is used for classes containing business logic.
+- What is repository annotation: repository annotation is used for classes that do CRUD operations in database.
+In the image below we can see when a user hit a url, the request first goes to `rest controller` which pass it to the `service` where all the business logic is present and does some operation on the data which can include passing  it to the `repository` if any database operation is required. This is an example of an abstraction where each level of abstraction simplifies things for us.
+  ![](../assets/2022-11-15-09-36-04.png)
+
+- Singleton instance are default because of the reason that most of the time when we are creating bean we are creating it for `service` classes and `repository` classes which only have functionalities rather than data.
+
+- `@Lazy` annotation for waiting until the bean is required. When a spring boot application is started a bean is created as part of application startup but using `Lazy` annotation we can avoid creating all beans at once hence decreasing the startup time and creating beans only when they are required. **Lazy Evaluation worth checking out** will clear up a lot of things about this `Lazy` annotation.
+
+- Different types of scopes apart from `singleton` which is default scope
+   1. prototype: used for creating a new instance whenever we try to get the bean.
+   2. request
+   3. session
+   4. application
+
+- Assignemnt:
+1. create singleton and prototype beans and print out to show it.
+2. show the difference in output when @Lazy annotation is used.
+
+
+We stopped at slide 12 timestamp 128
+
 
 > [Home](../README.md)
