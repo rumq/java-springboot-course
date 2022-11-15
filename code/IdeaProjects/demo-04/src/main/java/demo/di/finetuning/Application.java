@@ -14,7 +14,7 @@ public class Application {
         BankService primary = ctx.getBean(BankService.class,"primaryRepository");
 
         primary.printRepositoryInfo();
-        secondary.printRepositoryInfo();
+        // secondary.printRepositoryInfo();
 
     }
 
