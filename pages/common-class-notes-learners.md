@@ -295,7 +295,7 @@ Notes take by: Sahil
 
 - What is service annotation: service annotation is used for classes containing business logic.
 - What is repository annotation: repository annotation is used for classes that do CRUD operations in database.
-In the image below we can see when a user hit a url, the request first goes to `rest controller` which pass it to the `service` where all the business logic is present and does some operation on the data which can include passing  it to the `repository` if any database operation is required. This is an example of an abstraction where each level of abstraction simplifies things for us.
+  In the image below we can see when a user hit a url, the request first goes to `rest controller` which pass it to the `service` where all the business logic is present and does some operation on the data which can include passing it to the `repository` if any database operation is required. This is an example of an abstraction where each level of abstraction simplifies things for us.
   ![](../assets/2022-11-15-09-36-04.png)
 
 - Singleton instance are default because of the reason that most of the time when we are creating bean we are creating it for `service` classes and `repository` classes which only have functionalities rather than data.
@@ -303,17 +303,42 @@ In the image below we can see when a user hit a url, the request first goes to `
 - `@Lazy` annotation for waiting until the bean is required. When a spring boot application is started a bean is created as part of application startup but using `Lazy` annotation we can avoid creating all beans at once hence decreasing the startup time and creating beans only when they are required. **Lazy Evaluation worth checking out** will clear up a lot of things about this `Lazy` annotation.
 
 - Different types of scopes apart from `singleton` which is default scope
-   1. prototype: used for creating a new instance whenever we try to get the bean.
-   2. request
-   3. session
-   4. application
+
+  1.  prototype: used for creating a new instance whenever we try to get the bean.
+  2.  request
+  3.  session
+  4.  application
 
 - Assignemnt:
+
 1. create singleton and prototype beans and print out to show it.
 2. show the difference in output when @Lazy annotation is used.
 
-
 We stopped at slide 12 timestamp 128
 
+## 16 Nov 2022, Wednesday
+
+Notes taken by: Sahil
+
+### First part of the class
+
+- what is Monolith : A monolith architecture is the one where all the services are crammed into one service. For eg. Imagine an application and it does everything for eg. frontened, backend, authentication, APIs, Internal admin panels. This way all the things are crammed into one application and its really hard to manage such applicatoin and as a result came the concept of microservices.
+
+- What is microservices: A microservices architecture is the architecture where a big application is split into multiple small applications with each application serving a specific purpose.
+
+- What is docker: A docker is some sort of virtual machine with bare minimum setup to run the applications. These docker machines can also be customised according to our needs. They are very popular in microservices since they are very light weight and the machines themselves doesn't consume much memory by itself in idle state. **Keep in mind windows docker images can't run on linux and vice-versa, reason being to make this docker images very light weight they use the underlying libraries or host machine. So to run the linux docker image we need the underlying host to be linux and same goes for windows**.
+
+- links shared in the class
+  https://learning.oreilly.com/videos/architectural-katas-october-november/0636920631439/
+  https://learning.oreilly.com/library/view/building-microservices/9781491950340/
+  https://learning.oreilly.com/live-events/microservice-fundamentals/0636920054839/
+
+### O'reilly video
+
+- What are microservices?
+  - properties
+    1. independent deployability: Ability to deploy a service without needing to deploy other services again. A microservice is different from distribute monolith as in monolith even though the services are distributed but deployment of one service require the deployment of all other services as well.
+
+We stopped at 15 mins.
 
 > [Home](../README.md)
