@@ -339,6 +339,24 @@ Notes taken by: Sahil
   - properties
     1. independent deployability: Ability to deploy a service without needing to deploy other services again. A microservice is different from distribute monolith as in monolith even though the services are distributed but deployment of one service require the deployment of all other services as well.
 
-We stopped at 15 mins.
+We stopped at 15 min.
+
+## 17 Nov 2022, Thursday
+
+### O'reilly video
+#### Microservices
+- arranging microservices around the business domain. For eg. different business domains can be shipping, inventory, customer service, accounts, invoicing
+- microservices and domain driven design go together very well.
+- If we have independent deployability then changing the version of one of the microservice doesn't mean other microservices would be notified about that change and this problem can be hanlded using backward compability (which means even though we have updraded the version of the microservices it needs to still provide the older services until the version is updated in all the other microservices)
+- Domain driven design : is how we model our architechture  and event driven architecture is one type of domain driven design.
+- Event driven architecture is the mechanism by which different microservices communicate using events
+
+
+#### Java Spring Boot
+For new joiners
+- you can clone [this repository](https://github.com/rumq/java-springboot-course)
+- to know how to clone check out [this link](https://github.com/rumq/java-corejava-2210/blob/main/members/stelina.pema.2210/pages/clone-git-project.md)
+
+We stopped at 27
 
 > [Home](../README.md)
