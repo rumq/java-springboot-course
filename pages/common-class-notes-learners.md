@@ -359,4 +359,24 @@ For new joiners
 
 We stopped at 27
 
+## 18 Nov 2022, Friday
+
+### O'reilly video
+
+#### Microservices
+
+- How do we measure size of microservices?
+Concept of size is mileading for microservices since it differs from person to person as one person might be more experienced and might be able to manage more microservices but at the same time other person might be overwhelmend by it. What is more important is for us to know how many services  we can handle. If we have more microservices testing become much harder and it becomes hard to handle all the microservices.
+
+-  Are microservices and api are the same thing?
+  api are a way to interact between the different microservices but microservices are much more than api and can do much more things than api.
+
+#### Assignment
+- Seach for the famous companies with highest no. of microservices.
+- Search for the history of rest api
+
+We stopped at 37
+
+#### Java Spring boot
+
 > [Home](../README.md)
