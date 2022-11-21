@@ -379,4 +379,21 @@ We stopped at 37
 
 #### Java Spring boot
 
+
+
+## 21 Nov 22, Monday
+
+This week notes taken by:Ilda
+
+- Share what we learned about the 2 assignments from Friday class.
+- PawarV showing the shortcuts for gmail, github, calendar etc.
+- Diagram about history of MicroServices - starting from the beginnig of the computer history(see the movie: "The imitation game")
+- 
+The diagram from today's class [MicroServices History](../assets/diagrams/MicroServicesHistory.excalidraw)
+
+
+#### Assignment:
+Research for rest and put that information into a .md file in our repository.
+
+
 > [Home](../README.md)
