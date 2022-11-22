@@ -2,9 +2,15 @@
  
 # Microservices  by Sam Newman
  
+
+## Course Information
+
+Going through [Sam Newman's Microservices Fundamentals live session from Oct 5, 2021](https://learning.oreilly.com/live-events/microservice-fundamentals/0636920054839/).
+
+The slides are [here](../assets/microservicefundamentals852111633099230867%20(1).pdf).
+
 ## 22 Nov
 
-Link to the [OReilly recording ](https://learning.oreilly.com/live-events/microservice-fundamentals/0636920054839/).
 
 *Started at 37 Minutes*
 
@@ -17,7 +23,12 @@ EJB drawbacks
 APIs can be exposed by Monolithic applications as well.
 If available there is nothing wrong with.
 
-Identify Microservices boundaries
+Identify Microservices boundaries and these mimic domain boundaries.
+
+### Does each service need its own database?
+
+
+
 
 
 
