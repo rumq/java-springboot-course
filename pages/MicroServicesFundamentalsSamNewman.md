@@ -21,7 +21,8 @@ EJB drawbacks
 * Exposes internals 
   
 APIs can be exposed by Monolithic applications as well.
-If available there is nothing wrong with.
+If available there is nothing wrong with using them.
+They can be treated as a black box.
 
 Identify Microservices boundaries and these mimic domain boundaries.
 
