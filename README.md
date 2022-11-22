@@ -4,7 +4,8 @@ This repository contains both the documentation and the code used for the course
 
 ## Course Details
 We'll be basing the course on the material from this wonderful course by Olsen.
-[Hands-On Spring Boot in 3 Weeks Course Details](pages/hands-on-spring-boot-in-3-weeks.md).
+* [Hands-On Spring Boot in 3 Weeks Course Details](pages/hands-on-spring-boot-in-3-weeks.md).
+* [Microservices Fundamentals](pages/MicroServicesFundamentalsSamNewman.md)
 
 
 ## Pages [Check daily]
