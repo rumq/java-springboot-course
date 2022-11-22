@@ -396,4 +396,35 @@ The diagram from today's class [MicroServices History](../assets/diagrams/MicroS
 Research for rest and put that information into a .md file in our repository.
 
 
+## 22 Nov 22, Tuesday
+
+### O'reilly video
+
+#### Microservices
+
+- There are a lot of diffrent ways to interact with microserices for example events, apis , rest apis
+  
+- Synchronous or asynchronous model communication between microservices - It will be a mix of both, take a look at chapter 4 from the book
+
+- What programming language to use to create microservices?spring boot? - It doesn't matter, you can use whatever you want, the one that you are most comfortable to use.
+
+- Would a hybrid microservices-monolithic architecture make sense in certain cases? which are these cases?
+Development teams should also consider speed when evaluating a microservices approach. When developing a new application, it will inevitably go through many rounds of trial and error to get right. Taking a monolithic-first approach allows you to stand up a prototype and iterate much faster. This is where a hybrid approach can pay dividends. The idea is to start the project as a monolith and “by paying attention to modularity within the software, both at the API boundaries and how the data is stored,” you can easily shift to a microservices architecture later on.
+
+- It sounds like EJB would have been a perfect microservice.But there were many people against it at the time?
+EJB were terrible,they faild because the idea was bad.
+
+- Can microservices depend on API's by monolithic application? Yes it make sense and is very useful migration technique
+
+- Should microservices be defined by business departaments? Not far away form this idea.
+
+- Will each service need to have its own database?
+Encapsulating the data ensures that the microservices are loosely coupled and can evolve independently of one another.
+
+
+
+Stopped at 56 
+
+
+
 > [Home](../README.md)
