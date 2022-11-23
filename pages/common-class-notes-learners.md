@@ -425,6 +425,19 @@ Encapsulating the data ensures that the microservices are loosely coupled and ca
 
 Stopped at 56 
 
+## 23 Nov 22, Tuesday
+
+#### Preview on how to use github
+
+- Discussions
+- Projects
+- Issues
+
+The difference between discusion and issues, when to create them.
+
+Backlog can be opened as a discussion
+ 
+Everything discussed is recorded, if there are some things you don't understand you can watch the video recording.
 
 
 > [Home](../README.md)
