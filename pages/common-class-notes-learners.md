@@ -470,7 +470,6 @@ impl refers to implementation
 
 
 #### Assignment
-Replicate the same structure of restaurants and run it with the impl like a prototype
 
 Run a prototype example like the demo 04 package demo.di using as an example replicate the same structure of the Restaurant assigment that we have done in java.
 
