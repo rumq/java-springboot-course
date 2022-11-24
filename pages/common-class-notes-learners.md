@@ -425,7 +425,7 @@ Encapsulating the data ensures that the microservices are loosely coupled and ca
 
 Stopped at 56 
 
-## 23 Nov 22, Tuesday
+## 23 Nov 22, Wednesday
 
 #### Preview on how to use github
 
@@ -438,6 +438,53 @@ The difference between discusion and issues, when to create them.
 Backlog can be opened as a discussion
  
 Everything discussed is recorded, if there are some things you don't understand you can watch the video recording.
+
+
+## 24 Nov 22, Thursday
+
+#### Spring boot
+
+The last one was from Nov 1
+
+- **Dependency Injection DI**
+
+Chapter 4 demo 04
+
+DI -Is a key Spring concept. Is when one object is pointed to another.
+DI-is a fundamental aspect of the Spring framework, through which the Spring container “injects” objects into other objects or “dependencies”. Simply put, this allows for loose coupling of components and moves the responsibility of managing components onto the container.
+Spring boot automaticly creates the beans and you can use @Autowired on a field.
+
+
+- **Interface** - is a reference type in Java. It is similar to class. It is a collection of abstract methods. A class implements an interface, thereby inheriting the abstract methods of the interface.
+A point where two systems, subjects, organizations, etc. meet and interact.
+
+On the demo 04  package demo.di, is devided into backend and frontend(bussines logic) parts.
+
+Backend
+@Repository indicates that the decorated class is a repository. A repository is a mechanism for encapsulating storage, retrieval, and search behavior which emulates a collection of objects.
+
+@Component indicates that a class might be a candidate for creating a bean.
+component classes - just like any other class but you put an anotation
+
+impl refers to implementation
+
+
+#### Assignment
+
+Run a prototype example like the demo 04 package demo.di using as an example replicate the same structure of the Restaurant assigment that we have done in java.
+
+We stopped at 146
+Slide 16
+
+
+
+
+
+
+
+
+
+
 
 
 > [Home](../README.md)
