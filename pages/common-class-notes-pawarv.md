@@ -1,6 +1,6 @@
 >[Home](../README.md)
 
-# Common class notes by PawarV 
+# Spring Boot Common class notes by PawarV 
 
 ## 2 Nov 22, Wednesday 
 
@@ -88,5 +88,9 @@ Steps
 Assignments
 1. Have you tried creating a basic Spring Boot App? Is it in our repo?
 2. Have you tried creating a basic Spring Boot Web App? Is it in our repo?
+
+## 25 Nov 22, Friday
+
+Stopped today at 82 minutes on Microservices Fundamentals.
 
 >[Home](../README.md)
