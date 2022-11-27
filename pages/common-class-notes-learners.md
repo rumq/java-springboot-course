@@ -471,20 +471,55 @@ impl refers to implementation
 
 #### Assignment
 
-Run a prototype example like the demo 04 package demo.di using as an example replicate the same structure of the Restaurant assigment that we have done in java.
+Run a prototype example like the demo 04 package demo.di using as an example the same structure of the Restaurant assigment that we have done in java.
 
 We stopped at 146
 Slide 16
 
+## 25 Nov 22, Friday
 
+#### Microservices
 
-
-
-
-
-
-
-
-
+- Microservices have their own database
+   Each microservice has its own data store (whole schema or a table). Other services can't access the data stores that they don't own. Such a solution brings a lot of benefits. First of all, changes to an individual database don't impact other services.
+- Encapsulation in microservices
+   Encapsulating the internals of a service through a carefully defined service boundary that does not expose internals of a service is important. Maintaining loose coupling in microservices is important to realizing the benefits of a microservices approach.
+- Interface
+   A microservice is a small, single service offered by a company. It derives from the distributed computing architecture that connects many small services, rather than having one large service. The microservice can then be delivered through an application programming interface (API)
+- Chapter 2 is all about information hiding 
+  
+- Microservices are strong opinionated
+   Microservices improve performance because teams handle specific services rather than an app as a whole. This advantage leads to greater accountability, compliance, and data security. Microservices allow developers to become language and technology agnostic. 
+- Rest or soap or grpc
+   - gRPC is widely used for communication between internal microservices majorly due to the high performance and its polyglot nature.
+   A gRPC based RPC framework is a great choice for inter-process communication in microservices applications. Not only the gRPC services are faster compared to RESTful services but also they are strongly typed. The Protocol Buffer, a binary format for exchanging data, is used for defining gRPC APIs.
+   - REST is a valuable architectural style for microservices, thanks to its simplicity, flexibility, and scalability. One of the strongest advantages of REST for microservices is that services can communicate without requiring internal knowledge of one another.
+   - SOAP (Simple Object Access Protocol) is a message protocol that enables the distributed elements of an application to communicate. SOAP can be carried over a variety of standard protocols, including the web-related Hypertext Transfer Protocol (HTTP).
+- Are microservices completely deployable?
+   Microservices are lightweight and are interconnected using APIs that are used for internal communication. Microservices have their independent code, that can be deployed individually for each of these microservices, without affecting other modules of the application.
+- Mantain backward compatibility
+   Use Explicit Versioning.
+   Add Dynamic Capability Discovery.
+   Add New Optional Parameters or New Methods.
+   Introduce New Parameters or New Data Types in New Methods.
+   Create Wrappers.
+- Downsides of microservices
+   Higher Complexity. Although microservices offer many advantages, they also come with a higher degree of complexity. 
+   Increased Network Traffic. 
+   Increased Development Time.
+   Limited Reuse of Code.
+   Dependency on DevOps. 
+   Difficult in Global Testing and Debugging.
+- Should we create different db for all microservices, how to keep db in sync?
+   In the shared-database-per-service pattern, the same database is shared by several microservices. You need to carefully assess the application architecture before adopting this pattern, and make sure that you avoid hot tables (single tables that are shared among multiple microservices).
+- Performance in microservices
+   It's important to create and run component tests on each core microservice and include these in the building process. Using a dashboard that tracks microservice performance between each build is also recommended, as it will allow you to easily detect regression in terms of performance.
+- Cache meaning
+   Cache primarily refers to a thing that is hidden or stored somewhere, or to the place where it is hidden. It has recently taken on another common meaning, “short-term computer memory where information is stored for easy retrieval.
+- Referential integrity between data entities
+   Referential integrity refers to the relationship between tables. Because each table in a database must have a primary key, this primary key can appear in other tables because of its relationship to data within those tables. When a primary key from one table appears in another table, it is called a foreign key .
+  
+  
+  **We stopped at 82**
 
 > [Home](../README.md)
