@@ -522,4 +522,25 @@ Slide 16
   
   **We stopped at 82**
 
+## 28 Nov 22, Monday
+
+#### Microservices
+
+- Cognitive overload
+  Writing is one example of a high-cognitive load task. So is any task that requires taking in a lot of sensory input and then needing to transmit that information into your short- or long-term memory.
+- Test the things in small places before the big ones
+- Dunbar number
+   Dunbar's number is a popular estimate for the maximum size of social groups(150)
+- Cross-service testing is more involved now.
+- Backward compatibility, PawarV explained it with a diagram
+   Backward compatibility testing, also known as downward compatibility, is the testing of older versions of the application or software to verify its successful performance with newer hardware/software. Backward compatibility tests are important because some users may operate the application on old devices.
+
+- E2E , isolation testing, tdd, chapter 9 more information for testing part
+
+**We stopped at 93**
+
+Assigment: Find out what is consumer driven contract testing
+
+
+
 > [Home](../README.md)
