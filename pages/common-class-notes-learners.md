@@ -542,5 +542,34 @@ Slide 16
 Assigment: Find out what is consumer driven contract testing
 
 
+## 29 Nov 22, Tuesday
+
+## Spring Boot
+
+- Injecting Dependencies into constructors
+  When a class requires an instance of a Dependency, you can supply that Dependency through the class's constructor, enabling it to store the reference for future use. Constructor Injection is the act of statically defining the list of required Dependencies by specifying them as parameters to the class's constructor.
+   You can decalre the field without an annotation and you can autowire a constructor. when spring boot creates this bean called constructor, and we autowire this contrustor, and when this constructor is called, spring boot realizes that the constructor needs a parameter.
+   When we have multiple implementations we need to have a qualifier. If the qualifier is there we are able to pick one of the implementations. The property that allows us to do this, is called polymorphism. 
+   If we have an autowired field and spirng cannot find one it will just say "null".
+- Fine Tuning Autowired
+   Autowiring by type can lead to ambiguity when we have multiple beans of the same base class type. Because there are multiple beans of the same type, it is important to have control over the bean selection process.
+   Spring provides @Primary annotation which declares a specific bean as primary, which means primary bean will be given higher preferences when autowiring to a single-valued dependency.
+   On the other hand, Spring also provides @Qualifier annotation in which the specific bean name is mentioned in its argument. Based on the argument, a specific bean is selected.
+- @Primary 
+   When there are multiple beans of the same type, @Primary annotation can be used to give a higher preference to a specific bean.
+   Use @Primary with @Component annotation
+   Use @Primary annotation with @Bean
+   The @Primary annotation does a great job of giving a higher preference to a bean when there are multiple beans of the same types registered in the container. But it does not allow you to select a specific bean.
+- @Qualifier
+   When you need more control over the bean selection process, you need to use Spring’s @Qualifier annotation. Irrespective of whether any of the beans is annotated with @Primary or not, the @Qualifier annotation will help you select the specific bean you want to inject.
+- Why spring boot can use databases
+   Spring Data includes repository support for JDBC and will automatically generate SQL for the methods on CrudRepository . For more advanced queries, a @Query annotation is provided. Spring Boot will auto-configure Spring Data's JDBC repositories when the necessary dependencies are on the classpath.
+- PawarV explained qualifier through diagram 
+
+
+**Slide 20**
+**We stopped at 159**
+  
+
 
 > [Home](../README.md)
