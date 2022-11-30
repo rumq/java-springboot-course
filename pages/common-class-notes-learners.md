@@ -571,5 +571,40 @@ Assigment: Find out what is consumer driven contract testing
 **We stopped at 159**
   
 
+## 30 Nov 22, Wednesday
+
+#### Microservices
+
+- Log aggregation in microservices
+  Use a centralized logging service that aggregates logs from each service instance. The users can search and analyze the logs. They can configure alerts that are triggered when certain messages appear in the logs.
+- Monitoring is complex
+  Monitoring Microservices can help organizations: Understand the overall health of the application. Glean insight into the performance of each individual service that makes up an application. Ensure the API transactions are available and performing well. Isolate problematic transactions and endpoints.
+- Resiliency isn't free
+  A microservice needs to be resilient to failures and to be able to restart often on another machine for availability. This resiliency also comes down to the state that was saved on behalf of the microservice, where the microservice can recover this state from, and whether the microservice can restart successfully.
+- Backpressure
+  The back-pressure could be defined as the pressure within a system caused by fluid friction or an induced resistance to flow through the system. The necessary back-pressure is often created and controlled by a valve that is set to operate under the desired range of conditions.
+- Now everything is code/ spec
+- PawarV showing us docker files and what is in it
+- Distributed transactions microservices
+  In a microservice architecture, a distributed transaction is an outdated approach that causes severe scalability issues. Modern patterns that rely on asynchronous data replication or model distributed write operations as orchestrated or choreographed SAGAs avoid these problems
+- Eventual consistency
+  Eventual consistency means that the updates may take some time to propagate but eventually they will, also in the case of failures that are eventually resolved. Updates between different Microservices are typically also eventually consistent. is one of the Reactive Principles.
+- CAP theory
+  This phenomenon is summed up in something called the CAP theorem, which states that a distributed system can deliver only two of the three overarching goals of microservices design: consistency, availability and partition tolerance.
+- Modular microservices (chapter 2)
+- Are microservices same as service oriented architecture?
+- Joining data from databases from multiple microservices
+
+**Assignments:**
+[Docker tutorial](https://github.com/rumq/java-corejava-2210/issues/73)
+[What are Microservices From Building Microservices](https://github.com/rumq/java-corejava-2210/issues/74)
+
+**We stopped at  111**
+
+## 01 Dec 22, Thursday
+#### Spring Boot
+
+
+
 
 > [Home](../README.md)
