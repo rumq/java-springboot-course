@@ -604,7 +604,18 @@ Assigment: Find out what is consumer driven contract testing
 ## 01 Dec 22, Thursday
 #### Spring Boot
 
+**Section 1**
 
+- [14A - Java Springboot (2022-12-01 08:31 GMT)](https://drive.google.com/file/d/1kk1MLkKNmB2Red4Oqd_tGUrxkUyBg0H5/view?usp=sharing)
+- Run every demo that is in 3 weeks course and see how many of them run without you doing anything.Side by side open the slides related to that demo and do a quick scan while you run the demos.
+- Document what you are doing in discussion example #15 and write there what you have done.
+  
+**Section 2**
+
+- [14A - Java Springboot (2022-12-01 08:48 GMT)](https://drive.google.com/file/d/1Unp1dhZCsCP1cd38cWBEjPP9-j8zaA8S/view?usp=sharing)
+- Everybady running the application (demo 11) and see what they get
+- Ada sharing the screen and we saw a live demo running and what it does
+- We should debug them and understand what every line does.
 
 
 > [Home](../README.md)
