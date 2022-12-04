@@ -2,17 +2,17 @@
 
 ## Chapter 1
 
-- Overview <br>
+### - Overview <br>
   - Microservices are independently releasable services and an architecture choice. A single microservice is treated like a black box. For example, if the microservice hosts business functionality on one or more network endpoints, the consumers will access this functionality via these networked endpoints.
   - Microservices embrace the concept of information hiding(Encapsulation), which means hiding the informations inside a component and exposing as little as possible via external interfaces.
 
-- The monolithic architecture <br>
+### - The monolithic architecture <br>
 When all functionality in a system must be deployed together, we consider it a monolith.
   - The modular monolith is a variation in which the single process consists of separate modules. Each module can be worked on independently, but all still need to be combined together for deployment.
   - A distributed monolith is a system that consists of multiple services, but for whatever reason, the entire system must be deployed together.
 
 
-- Advantages of Microservices
+### - Advantages of Microservices
   - Technology Heterogeneity <br>
 With a system composed of multiple, collaborating microservices, we can decide to use different technologies inside each one. This allows us to pick the right tool for each job rather than having to select a more standardized, one-size-fits-all approach that often ends up being the lowest common denominator.
 
