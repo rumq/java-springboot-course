@@ -617,5 +617,13 @@ Assigment: Find out what is consumer driven contract testing
 - Ada sharing the screen and we saw a live demo running and what it does
 - We should debug them and understand what every line does.
 
+## 02 Dec 22, Friday
+
+**Spring boot**
+
+- We opened discussion for every demo.
+- In the discussion we have to run the demo related, and write what we understand form it.
+- [Discussion epic](https://github.com/rumq/java-springboot-course/discussions/30)
+
 
 > [Home](../README.md)
