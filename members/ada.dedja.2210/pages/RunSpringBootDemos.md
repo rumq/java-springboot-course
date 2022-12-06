@@ -1,4 +1,5 @@
 **Dec 1**
+
 I tried to run the application in VS code, but it was taking very long more than 5 min to run and then I opened the first demo Demo02SimpleAppApplication
 It ran successfully.
 
@@ -24,3 +25,8 @@ Ran successfully demo-06 techniques printed the beans and their random UUID
 
 Ran demo-10 successfully.
 The data are set in the Employee model. In the EmployeeService the model is mapped to the database model. All the methods are declared in EmployeeRepository interface. The employees data called in the Application class are printed when the program is ran.
+
+
+**DEC 05**
+
+Ran demo-03 during the Spring Boot Class. The webapplication was running on port: 8111 and TomCat server was intilized and started. 
