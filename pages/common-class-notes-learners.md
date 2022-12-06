@@ -625,5 +625,25 @@ Assigment: Find out what is consumer driven contract testing
 - In the discussion we have to run the demo related, and write what we understand form it.
 - [Discussion epic](https://github.com/rumq/java-springboot-course/discussions/30)
 
+## 05 Dec 22, Friday
+
+**Spring boot**
+
+We ran the simple app on Visual Studio
+
+
+## 06 Dec 22, Friday
+
+**Spring boot**
+
+**Today we are running Demo03WebApplication.**
+- We gave a look at the logs after running the program. 
+  - From the logs we can see that in this appication we have an embedded Tomcat server and the server port number. The default port number is 8080, but in this case it is 8111. If you go inside the project to the application.properties file, you can see that in there we have define the port number `server.port=8111`
+  -  Make sure to stop the application before running it again, otherwise we will get an error that the port is already being used. We can only use one port (otherwise if two application send a request to the same the server port, the server won't know in which application should it send the response of the request.)
+  -  if we go to google and type `localhost:8111` we will see a "hello world" page. If you see inside the index.html file, you can see a piece of html code which builds this "hello world" page.
+  
+  
+
+
 
 > [Home](../README.md)
