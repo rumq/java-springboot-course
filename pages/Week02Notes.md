@@ -142,6 +142,9 @@ Project Lombok is used to generate the getters and setters. It is a Java library
 1. Setting the scene
 2. Defining a full REST service
 
+
+
+
 > [Home](HOME.md)
 
 ```
