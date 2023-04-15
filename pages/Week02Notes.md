@@ -13,7 +13,7 @@
 - [11_Simple_Rest_Services](../slides/pdfs/11_Simple_Rest_Services.pptx.pdf)
 - [12_Full_Rest_Services](../slides/pdfs/12_Full_Rest_Services.pptx.pdf)
 
-# 07 Spring Boot Techniques
+## 07 Spring Boot Techniques
 
 ## 1. Setting App properties at the command line
 
@@ -109,13 +109,44 @@ Project Lombok is used to generate the getters and setters. It is a Java library
 
 ```java
 @Data
-
+```
 
 
 ## 08 Integrating with Data Sources
 
-1. Understanding Spring Data
-2. Getting started with Spring Data JPA
+Starts at Week 2, 76:19 minutes
+
+# [Allpages](pages/AllPages.md)
+
+
+
+### 1. Understanding Spring Data
+
+JPA Java Persistence API, standardization of Hibernate. Implements Object Relational Mapping (ORM).
+
+Support of Relational DBs, NoSQL DBs, Graph DBs, Map-Reduce DBs, Cloud Datastores.
+
+Use Spring attributes to set transaction.
+
+Repository - CRUD with minimal code.
+
+H2 is in memory database, runs inside JVM.
+
+Dependency for H2 database. It provides the driver.
+
+```xml
+<dependency>
+    <groupId>com.h2database</groupId>
+    <artifactId>h2</artifactId>
+    <scope>runtime</scope>
+</dependency> 
+```
+
+Review on mvnrepository.com, copy mysql dependency if we want it.
+
+
+
+### 2. Getting started with Spring Data JPA
 3. Defining JPA Entity classes
 4. Viewing Database Data
 
