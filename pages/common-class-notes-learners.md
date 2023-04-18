@@ -680,6 +680,7 @@ We'll be going through these slides and the corresponding demos for this course.
 
 We've gone through the first 3 today, and looked at the 4rth Bean injection briefly. We'll start from there in the next class.
 
-There was an issue today, so the meeting was not recorded.
+Today's meeting is recorded.
+
 
 > [Home](../README.md)
