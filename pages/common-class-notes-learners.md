@@ -91,7 +91,13 @@ When it is created as an Web app it has an embedded server such as Tom Cat and i
 Listen for HTTP requests from a web client (browser)and it returns static or dynamic content.
 
 **Create the Spring Boot Web App project:**
-1.Open IntellIJ or you can created through start.spring.io 2. Click "New Project" 3. Go to Spring Initializr on the left side of the window and give your project a name 4. Choose your location and the group name, package name 5. Select java version 11 and packing **jar** 6. Click Next 7. Choose dependency and click Web, select Spring Web dependency. Finish
+1. Open IntellIJ or you can created through start.spring.io 
+2. Click "New Project" 
+3. Go to Spring Initializr on the left side of the window and give your project a name 
+4. Choose your location and the group name, package name 
+5. Select java version 11 and packing **jar** 
+6. Click Next 
+7. Choose dependency and click Web, select Spring Web dependency. Finish
 
 The generated project is a regular Maven project they have the pom file, where the dependencies are listed
 
@@ -188,10 +194,14 @@ Download the git repository https://github.com/andyolsen/spring-boot-in-3-weeks 
 1. Go to main/java/com/demo02SimpleAppApplication and run the project
 
 **Demo 03**
-1.Open demo-03-simple-app file from the repository that you downloaded 2. Go to main/java/com/demo03WebAppApplication and run the project 3. Check the terminal for the port that the web app is running 4. If you want to change what is printed on the main page go to index.html and edit the body
+1. Open demo-03-simple-app file from the repository that you downloaded 
+2. Go to main/java/com/demo03WebAppApplication and run the project 
+3. Check the terminal for the port that the web app is running 
+4. If you want to change what is printed on the main page go to index.html and edit the body
 
 **Demo 04**
-1.Open demo-04-beans-dependencyinjection from the repo that you download previously 2. Go to src/main/java/demo/beans/Application and run the file (it will not start the TomCat because it didn't have web-starter dependency)
+1. Open demo-04-beans-dependencyinjection from the repo that you download previously 
+2. Go to src/main/java/demo/beans/Application and run the file (it will not start the TomCat because it didn't have web-starter dependency)
 
 Create a new java class and name it MyComponent2 in the same folder as MyComponent.java. Copy the classes inside MyComponent and run the application. Without the annotation it will not change anything if it is runned.
 
@@ -643,7 +653,33 @@ We ran the simple app on Visual Studio
   -  if we go to google and type `localhost:8111` we will see a "hello world" page. If you see inside the index.html file, you can see a piece of html code which builds this "hello world" page.
   
   
+## 18 Apr 22, 
 
+We'll be going through these slides and the corresponding demos for this course.
 
+[Welcome](https://github.com/rumq/spring-boot-in-3-weeks/blob/master/slides/pdfs/00-Welcome.pptx.pdf)
+
+1. [01_Introduction_to_Spring_Boot](https://github.com/rumq/spring-boot-in-3-weeks/blob/master/slides/pdfs/01_Introduction_to_Spring_Boot.pptx.pdf)
+2. [02_Creating_Simple_App](https://github.com/rumq/spring-boot-in-3-weeks/blob/master/slides/pdfs/02_Creating_Simple_App.pptx.pdf)
+3. [03_Creating_Web_App](https://github.com/rumq/spring-boot-in-3-weeks/blob/master/slides/pdfs/03_Creating_Web_App.pptx.pdf)
+4. [04_Beans_Dependency](https://github.com/rumq/spring-boot-in-3-weeks/blob/master/slides/pdfs/04_Beans_DependencyInjection.pptx.pdf)
+5. [05_Injection_Techniques](https://github.com/rumq/spring-boot-in-3-weeks/blob/master/slides/pdfs/05_Injection_Techniques.pptx.pdf)
+6. [06_Configuration_Classes](https://github.com/rumq/spring-boot-in-3-weeks/blob/master/slides/pdfs/06_Configuration_Classes.pptx.pdf)
+7. [07_Spring_Boot_Techniques](https://github.com/rumq/spring-boot-in-3-weeks/blob/master/slides/pdfs/07_Spring_Boot_Techniques.pptx.pdf)
+8. [08_Integrating_Data_Sources](https://github.com/rumq/spring-boot-in-3-weeks/blob/master/slides/pdfs/08_Integrating_Data_Sources.pptx.pdf)
+9. [09_Querying_Modifying_Entities](https://github.com/rumq/spring-boot-in-3-weeks/blob/master/slides/pdfs/09_Querying_Modifying_Entities.pptx.pdf)
+10. [10_Spring_Data_Repositories](https://github.com/rumq/spring-boot-in-3-weeks/blob/master/slides/pdfs/10_Spring_Data_Repositories.pptx.pdf)
+11. [11_Simple_Rest_Services](https://github.com/rumq/spring-boot-in-3-weeks/blob/master/slides/pdfs/11_Simple_Rest_Services.pptx.pdf)
+12. [12_Full_Rest_Services](https://github.com/rumq/spring-boot-in-3-weeks/blob/master/slides/pdfs/12_Full_Rest_Services.pptx.pdf)
+13. [13_Consuming_Rest_Services](https://github.com/rumq/spring-boot-in-3-weeks/blob/master/slides/pdfs/13_Consuming_Rest_Services.pptx.pdf)
+14. [14_Messaging_Kafka](https://github.com/rumq/spring-boot-in-3-weeks/blob/master/slides/pdfs/14_Messaging_Kafka.pptx.pdf)
+15. [15_Containerization](https://github.com/rumq/spring-boot-in-3-weeks/blob/master/slides/pdfs/15_Containerization.pptx.pdf)
+16. [16_SpringCloudMicroservices](https://github.com/rumq/spring-boot-in-3-weeks/blob/master/slides/pdfs/16_SpringCloudMicroservices.pptx.pdf)
+17. [17_Authentication_OAUTH2](https://github.com/rumq/spring-boot-in-3-weeks/blob/master/slides/pdfs/17_Authentication_OAUTH2.pptx.pdf)
+18. [18_Testing](https://github.com/rumq/spring-boot-in-3-weeks/blob/master/slides/pdfs/18_Testing.pptx.pdf)
+
+We've gone through the first 3 today, and looked at the 4rth Bean injection briefly. We'll start from there in the next class.
+
+There was an issue today, so the meeting was not recorded.
 
 > [Home](../README.md)
