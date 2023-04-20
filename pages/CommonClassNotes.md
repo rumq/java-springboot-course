@@ -653,7 +653,7 @@ We ran the simple app on Visual Studio
   -  if we go to google and type `localhost:8111` we will see a "hello world" page. If you see inside the index.html file, you can see a piece of html code which builds this "hello world" page.
   
   
-## 18 Apr 22, 
+## 18 Apr 22, Tuesday
 
 We'll be going through these slides and the corresponding demos for this course.
 
@@ -680,7 +680,25 @@ We'll be going through these slides and the corresponding demos for this course.
 
 We've gone through the first 3 today, and looked at the 4rth Bean injection briefly. We'll start from there in the next class.
 
-Today's meeting is recorded.
+Today's meeting is recorded. You can find it here [Master Class Tech A B C D (2023-04-18 06:02 GMT+1)](https://drive.google.com/file/d/1Y66X-1sJSfrGhCemM0Ggh50nbCrNu8mj/view?usp=share_link).
+
+## 20 Apr 22, Thursday
+
+Today we've gone through [04_Beans_Dependency](https://github.com/rumq/spring-boot-in-3-weeks/blob/master/slides/pdfs/04_Beans_DependencyInjection.pptx.pdf).
+
+### Assignments 
+1. Go through the article [Dependency Injection Demystified](https://www.jamesshore.com/v2/blog/2006/dependency-injection-demystified)
+2. Go through the article [Composition, Aggregation, and Association in Java](https://www.baeldung.com/java-composition-aggregation-association).
+3. Pick a domain to build your Spring Boot app and start implementing what we are learning in the class. You'll show your app in the next class.
+4. Go through the slides until 06_Configuration_Classes and run ALL the corresponding demos while you are going through the slides.
+5. Write notes on the following in the corresponding markdown files
+   1. What's the difference between a Framework and a Library? [Q001](Q001FrameworkVsLibary.md)
+   2. What's a Bean? [Q002](Q002WhatsABean.md)
+   3. What's a Component? [Q003](Q003WhatsAComponent.md)
+   4. What's Singleton? [Q004](Q004WhatsASingleton.md)
+   5. What's Singleton Scope and Prototype Scope? [Q005](Q005SingletonVsPrototypeScope.md)
+
+Today's meeting is recorded. You can find it here [TBD](https://).
 
 
 > [Home](../README.md)
