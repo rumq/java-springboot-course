@@ -698,7 +698,7 @@ Today we've gone through [04_Beans_Dependency](https://github.com/rumq/spring-bo
    4. What's Singleton? [Q004](Q004WhatsASingleton.md)
    5. What's Singleton Scope and Prototype Scope? [Q005](Q005SingletonVsPrototypeScope.md)
 
-Today's meeting is recorded. You can find it here [TBD](https://).
+Today's meeting is recorded. You can find it here [Master Class Tech A B C D (2023-04-20 06:02 GMT+1)](https://drive.google.com/file/d/1EtrYeZHOkxTqGdNoDig-sBKhwwvMpy6z/view?usp=share_link).
 
 
 > [Home](../README.md)
