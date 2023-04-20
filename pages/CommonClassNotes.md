@@ -680,7 +680,7 @@ We'll be going through these slides and the corresponding demos for this course.
 
 We've gone through the first 3 today, and looked at the 4rth Bean injection briefly. We'll start from there in the next class.
 
-Today's meeting is recorded. You can find it here [Master Class Tech A B C D (2023-04-18 06:02 GMT+1)](https://drive.google.com/file/d/1Y66X-1sJSfrGhCemM0Ggh50nbCrNu8mj/view?usp=share_link).
+Today's meeting is recorded. You can find it here [Spring Boot Day 01 Introduction](https://drive.google.com/file/d/1Y66X-1sJSfrGhCemM0Ggh50nbCrNu8mj/view?usp=share_link).
 
 ## 20 Apr 22, Thursday
 
@@ -698,7 +698,8 @@ Today we've gone through [04_Beans_Dependency](https://github.com/rumq/spring-bo
    4. What's Singleton? [Q004](Q004WhatsASingleton.md)
    5. What's Singleton Scope and Prototype Scope? [Q005](Q005SingletonVsPrototypeScope.md)
 
-Today's meeting is recorded. You can find it here [Master Class Tech A B C D (2023-04-20 06:02 GMT+1)](https://drive.google.com/file/d/1EtrYeZHOkxTqGdNoDig-sBKhwwvMpy6z/view?usp=share_link).
+Today's meeting is recorded. You can find it here [Spring Boot Day 02 Bean Dependency](https://drive.google.com/file/d/1EtrYeZHOkxTqGdNoDig-sBKhwwvMpy6z/view?usp=share_link).
+
 
 
 > [Home](../README.md)
