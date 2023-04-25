@@ -3,7 +3,9 @@
 # Common class notes
 
   
-# 18 Apr 22, Tuesday
+# Day 01 Introduction 
+
+18 Apr 23, Tuesday
 
 We'll be going through these slides and the corresponding demos for this course.
 
@@ -32,7 +34,9 @@ We've gone through the first 3 today, and looked at the 4rth Bean injection brie
 
 Today's meeting is recorded. You can find it here [Spring Boot Day 01 Introduction](https://drive.google.com/file/d/1Y66X-1sJSfrGhCemM0Ggh50nbCrNu8mj/view?usp=share_link).
 
-# 20 Apr 22, Thursday
+# Day 02 Bean Dependency
+
+20 Apr 23, Thursday
 
 Today we've gone through [04_Beans_Dependency](https://github.com/rumq/spring-boot-in-3-weeks/blob/master/slides/pdfs/04_Beans_DependencyInjection.pptx.pdf).
 
@@ -50,6 +54,36 @@ Today we've gone through [04_Beans_Dependency](https://github.com/rumq/spring-bo
 
 Today's meeting is recorded. You can find it here [Spring Boot Day 02 Bean Dependency](https://drive.google.com/file/d/1EtrYeZHOkxTqGdNoDig-sBKhwwvMpy6z/view?usp=share_link).
 
+# Day 03 Basics Chapters 1 to 4
 
+25 Apr 23, Tuesday
+
+We've started looking at this example [pawarv-demo-02-basics](https://github.com/rumq/spring-boot-in-3-weeks/tree/master/pawarv/pawarv-demo-02-basics).
+
+We've seen that we need the following two dependencies in our `pom.xml` to enable 'live reload', i.e., the application restarts whenever we make any changes. 
+This helps us to see the changes we make in the code without having to restart the application manually.
+
+```xml
+<dependency>
+   <groupId>org.springframework.boot</groupId>
+   <artifactId>spring-boot-devtools</artifactId>
+   <optional>true</optional>
+</dependency>
+<dependency>
+   <groupId>org.springframework.boot</groupId>
+   <artifactId>spring-boot-starter-web</artifactId>
+</dependency>
+```
+
+Assignment:
+
+Go through the assignments from Day 02.
+Write answers to the questions in the corresponding markdown files Q001 to Q005.
+
+Try to understand the code in the example `pawarv-demo-02-basics` for the print statements until `08C`. 
+Come with questions for the class.
+
+
+Today's meeting is recorded. You can find it here [Spring Boot Day 03 Basics Chapter 1 to 4](https://drive.google.com/file/d/1zsJtVfgeVuPQa3KpOBwRBmbcbu15hLq8/view?usp=share_link).
 
 > [Home](Home.md)
