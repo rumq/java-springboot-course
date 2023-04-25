@@ -1,6 +1,5 @@
 # Home : Java Springboot Course 
 
-- [CommonClassNotes](CommonClassNotes.md)
 - [HandsOnSpringBootIn3Weeks](HandsOnSpringBootIn3Weeks.md)
 - [Q001FrameworkVsLibary](Q001FrameworkVsLibary.md)
 - [Q002WhatsABean](Q002WhatsABean.md)
