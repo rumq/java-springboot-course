@@ -9,6 +9,7 @@
 ## Ilda
 ## Lediana
 ## Stelina
+- Components in SpringBoot are classes defined by annotations.
 
 
 

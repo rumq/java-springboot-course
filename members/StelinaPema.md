@@ -3,9 +3,9 @@
 # Stelina Pema
 
 ## Links
-- Repo 
+- [Personal Repository](https://github.com/pema-stelina/springboot-rumq)
 
 
-# Notes
-
+## Notes
+- [Class notes](https://github.com/pema-stelina/springboot-rumq/tree/main/Notes/Pages)
 >[Home](../pages/Home.md)
