@@ -86,4 +86,20 @@ Come with questions for the class.
 
 Today's meeting is recorded. You can find it here [Spring Boot Day 03 Basics Chapter 1 to 4](https://drive.google.com/file/d/1zsJtVfgeVuPQa3KpOBwRBmbcbu15hLq8/view?usp=share_link).
 
+# Day 04 Exercise on Hospital Domain
+
+In the class we've started exercising the concepts we've learned from chapters 1 to 4 on the Hospital domain.
+
+We've done until 002 getting bean by type.
+
+We'll continue continue from there in the next class.
+
+
+Assignment:
+
+1. Try exercising 001 through to 008C on your domains.
+2. See the video mentioned in the following documents.
+   1. [Object Equality](https://github.com/rumq/java-corejava-course/blob/main/pages/ObjectEquality.md)
+   2. [String Intering](https://github.com/rumq/java-corejava-course/blob/main/pages/StringIntern.md)
+
 
