@@ -88,6 +88,8 @@ Today's meeting is recorded. You can find it here [Spring Boot Day 03 Basics Cha
 
 # Day 04 Exercise on Hospital Domain
 
+27 Apr 23, Thursday
+
 In the class we've started exercising the concepts we've learned from chapters 1 to 4 on the Hospital domain.
 
 We've done until 002 getting bean by type.
