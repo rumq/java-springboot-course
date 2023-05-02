@@ -104,4 +104,17 @@ Assignment:
    1. [Object Equality](https://github.com/rumq/java-corejava-course/blob/main/pages/ObjectEquality.md)
    2. [String Intering](https://github.com/rumq/java-corejava-course/blob/main/pages/StringIntern.md)
 
+# Day 05 Continuing on the exercises on Hospital Domain
+
+02 May 23, Tuesday
+
+In this class we exercised prototype component, dependency injections (@Autowired) and constructor injection.
+
+We've done until 07 Constructor injection
+
+We'll continue from there in the next class.
+
+
+Assignment:
+1. Try exercising 08 Qualifier, Collection, Map injection. Make the code ready on your personal domain for the next class.
 
