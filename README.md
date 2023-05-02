@@ -116,5 +116,6 @@ We'll continue from there in the next class.
 
 
 Assignment:
-1. Try exercising 08 Qualifier, Collection, Map injection. Make the code ready on your personal domain for the next class.
+1. Make the toString() method on the domain class more presentable using ```String.format``` and ```%s``` 
+2. Try exercising 08 Qualifier, Collection, Map injection. Make the code ready on your personal domain for the next class.
 
