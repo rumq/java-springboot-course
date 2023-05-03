@@ -104,7 +104,7 @@ Assignment:
    1. [Object Equality](https://github.com/rumq/java-corejava-course/blob/main/pages/ObjectEquality.md)
    2. [String Intering](https://github.com/rumq/java-corejava-course/blob/main/pages/StringIntern.md)
 
-# Day 05 Continuing on the exercises on Hospital Domain
+# Day 05 Scope Autowiring and Constructor Injection
 
 02 May 23, Tuesday
 
