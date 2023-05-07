@@ -104,6 +104,8 @@ Assignment:
    1. [Object Equality](https://github.com/rumq/java-corejava-course/blob/main/pages/ObjectEquality.md)
    2. [String Intering](https://github.com/rumq/java-corejava-course/blob/main/pages/StringIntern.md)
 
+Today's recording [Day 04 Exercise on Hospital Domain](https://drive.google.com/file/d/1SLYeBkIYACke3z9QpGpGcKS2AJEZDnVa/view?usp=share_link)
+
 # Day 05 Scope Autowiring and Constructor Injection
 
 02 May 23, Tuesday
@@ -118,4 +120,17 @@ We'll continue from there in the next class.
 Assignment:
 1. Make the toString() method on the domain class more presentable using ```String.format``` and ```%s``` 
 2. Try exercising 08 Qualifier, Collection, Map injection. Make the code ready on your personal domain for the next class.
+
+Today's recording [Day 05 Scope Autowiring and Constructor Injection](https://drive.google.com/file/d/1Y3LHAWUr9cS98DieaRuur_yd_IB9we5A/view?usp=sharing)
+
+# Day 06  Injection techniques
+
+In this class we have done 08 exercising collection, map and other injection techniques.
+
+We've partially done 09 Injecting values.
+
+Assignment:
+1. Try exercising 09 Injecting values.
+
+Today's recording [Day 06 Injection Techniques](https://drive.google.com/file/d/1L6Mr5gjXsKK-etgta0m8FE2IbdQbysCa/view?usp=share_link)
 
