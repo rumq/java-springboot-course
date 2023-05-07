@@ -131,6 +131,7 @@ We've partially done 09 Injecting values.
 
 Assignment:
 1. Try exercising 09 Injecting values.
+2. Read the slides 
 
 Today's recording [Day 06 Injection Techniques](https://drive.google.com/file/d/1L6Mr5gjXsKK-etgta0m8FE2IbdQbysCa/view?usp=share_link)
 
