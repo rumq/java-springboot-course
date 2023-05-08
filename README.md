@@ -137,7 +137,7 @@ Today's recording [Day 06 Injection Techniques](https://drive.google.com/file/d/
 
 # Day 07 ch04 Bean Dependency Injection
 
-In this class we continued with `04 Bean Dependency Injection`.
+In this class we continued with 04_Beans_DependencyInjection.
 
 We looked at some more examples of injecting values from [pawarv-demo-02-basics](https://github.com/rumq/spring-boot-in-3-weeks/tree/master/pawarv/pawarv-demo-02-basics).
 
@@ -147,6 +147,13 @@ You can look at the diagram from the class `3 Layers of a typical application ` 
 
 ![here](assets/BankService.png)
 
-Look at the example in this repository [pawarv-demo-04-beans-dependencyinjection](code/pv-demo-04-beans-dependencyinjection/README.md) for a better understanding.
+
+
+Assignments:
+1. Do the assignment from 04_Beans_DependencyInjection slide.
+2. Try recreating the BankService and BankRepository example in your chosen domain. Look at the example in this repository [pv-demo-04-beans-dependencyinjection](code/pv-demo-04-beans-dependencyinjection/README.md) for a better understanding..
+
 
 Today's recording [Day 07 ch04 Bean Dependency Injection](https://drive.google.com/file/d/1TAr-eDEJNZmUlZW62VdvKZcj1ZMe7LCR/view?usp=share_link).
+
+
