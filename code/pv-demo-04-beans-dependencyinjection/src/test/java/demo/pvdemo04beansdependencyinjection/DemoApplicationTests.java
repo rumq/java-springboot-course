@@ -9,29 +9,19 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class DemoApplicationTests {
+
+	private static final String RED = "Red";
+	private static final String BLUE = "Blue";
+	private static final String TRIANGLE = "Triangle";
+	private static final String SQUARE = "Square";
+
 	@Autowired
 	ShapeService shapeService;
 
-	
-	
-	/**
-	 * This test is disabled because Square service & repository are commented out/
-	 * We can have only one implementation of ShapeRepository & ShapeService
-	 */
 	@Test
-	@Disabled 
-	void SquareTest() {
-
+	void dependencyTest() {
 		var result = shapeService.draw();
-		assertEquals("Drawing Square with Square Ink", result);
-		System.out.println(result);
-	}
-
-	@Test	
-	void TriangleTest() {
-
-		var result = shapeService.draw();
-		assertEquals("Drawing Triangle with Triangle Ink", result);
+		assertEquals(String.format("Drawing %s with %s Ink", TRIANGLE, RED), result);
 		System.out.println(result);
 	}
 

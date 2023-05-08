@@ -8,11 +8,11 @@ public class TriangleService implements ShapeService {
 
 
     @Autowired
-    ShapeRepository shapeRepository;
+    InkRepository inkRepository;
 
     @Override
     public String draw() {
-        return "Drawing Triangle with " + shapeRepository.getMaterial();
+        return "Drawing Triangle with " + inkRepository.getMaterial();
     }
     
 }
