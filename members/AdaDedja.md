@@ -1,6 +1,6 @@
 >[Home](../pages/Home.md)
 
-# Stelina Pema
+# Ada Dedja
 
 ## Links
 - [Personal Repository](https://github.com/adadedja/springboot)
