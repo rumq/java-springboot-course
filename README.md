@@ -1,9 +1,9 @@
 # Spring Boot Course
 
-# Links
+## Links
 - [Pages Home](pages/Home.md)
   
-# Day 01 Introduction 
+## Day 01 Introduction 
 
 18 Apr 23, Tuesday
 
@@ -34,13 +34,13 @@ We've gone through the first 3 today, and looked at the 4rth Bean injection brie
 
 Today's meeting is recorded. You can find it here [Spring Boot Day 01 Introduction](https://drive.google.com/file/d/1Y66X-1sJSfrGhCemM0Ggh50nbCrNu8mj/view?usp=share_link).
 
-# Day 02 Bean Dependency
+## Day 02 Bean Dependency
 
 20 Apr 23, Thursday
 
 Today we've gone through [04_Beans_Dependency](https://github.com/rumq/spring-boot-in-3-weeks/blob/master/slides/pdfs/04_Beans_DependencyInjection.pptx.pdf).
 
-### Assignments 
+#### Assignments 
 1. Go through the article [Dependency Injection Demystified](https://www.jamesshore.com/v2/blog/2006/dependency-injection-demystified)
 2. Go through the article [Composition, Aggregation, and Association in Java](https://www.baeldung.com/java-composition-aggregation-association).
 3. Pick a domain to build your Spring Boot app and start implementing what we are learning in the class. You'll show your app in the next class.
@@ -54,7 +54,7 @@ Today we've gone through [04_Beans_Dependency](https://github.com/rumq/spring-bo
 
 Today's meeting is recorded. You can find it here [Spring Boot Day 02 Bean Dependency](https://drive.google.com/file/d/1EtrYeZHOkxTqGdNoDig-sBKhwwvMpy6z/view?usp=share_link).
 
-# Day 03 Basics Chapters 1 to 4
+## Day 03 Basics Chapters 1 to 4
 
 25 Apr 23, Tuesday
 
@@ -84,7 +84,7 @@ Come with questions for the class.
 
 Today's meeting is recorded. You can find it here [Spring Boot Day 03 Basics Chapter 1 to 4](https://drive.google.com/file/d/1zsJtVfgeVuPQa3KpOBwRBmbcbu15hLq8/view?usp=share_link).
 
-# Day 04 Exercise on Hospital Domain
+## Day 04 Exercise on Hospital Domain
 
 27 Apr 23, Thursday
 
@@ -104,7 +104,7 @@ Assignment:
 
 Today's recording [Day 04 Exercise on Hospital Domain](https://drive.google.com/file/d/1SLYeBkIYACke3z9QpGpGcKS2AJEZDnVa/view?usp=share_link)
 
-# Day 05 Scope Autowiring and Constructor Injection
+## Day 05 Scope Autowiring and Constructor Injection
 
 02 May 23, Tuesday
 
@@ -121,7 +121,7 @@ Assignment:
 
 Today's recording [Day 05 Scope Autowiring and Constructor Injection](https://drive.google.com/file/d/1Y3LHAWUr9cS98DieaRuur_yd_IB9we5A/view?usp=sharing)
 
-# Day 06  Injection techniques
+## Day 06  Injection techniques
 
 In this class we have done 08 exercising collection, map and other injection techniques.
 
@@ -133,7 +133,7 @@ Assignment:
 
 Today's recording [Day 06 Injection Techniques](https://drive.google.com/file/d/1L6Mr5gjXsKK-etgta0m8FE2IbdQbysCa/view?usp=share_link)
 
-# Day 07 ch04 Bean Dependency Injection
+## Day 07 ch04 Bean Dependency Injection
 
 In this class we continued with 04_Beans_DependencyInjection.
 
@@ -154,7 +154,7 @@ Assignments:
 
 Today's recording [Day 07 ch04 Bean Dependency Injection](https://drive.google.com/file/d/1TAr-eDEJNZmUlZW62VdvKZcj1ZMe7LCR/view?usp=share_link).
 
-# Day 08 Recap
+## Day 08 Recap
 
 We have done a recap of the topics we have covered so far.
 
