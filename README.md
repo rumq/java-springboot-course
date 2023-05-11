@@ -77,10 +77,8 @@ This helps us to see the changes we make in the code without having to restart t
 
 Assignment:
 
-Go through the assignments from Day 02.
-Write answers to the questions in the corresponding markdown files Q001 to Q005.
-
-Try to understand the code in the example `pawarv-demo-02-basics` for the print statements until `08C`. 
+1. Go through the assignments from Day 02. Write answers to the questions in the corresponding markdown files Q001 to Q005.
+2. Try to understand the code in the example `pawarv-demo-02-basics` for the print statements until `08C`. 
 Come with questions for the class.
 
 
@@ -155,5 +153,26 @@ Assignments:
 
 
 Today's recording [Day 07 ch04 Bean Dependency Injection](https://drive.google.com/file/d/1TAr-eDEJNZmUlZW62VdvKZcj1ZMe7LCR/view?usp=share_link).
+
+# Day 08 Recap
+
+We have done a recap of the topics we have covered so far.
+
+You'll also see how to create the constructor and the toString() method using IntelliJ IDEA generate command `ctrl-N`  or `command-N` for Mac.
+
+We looked at the example [pawarv-demo-02-basics](https://github.com/rumq/spring-boot-in-3-weeks/tree/master/pawarv/pawarv-demo-02-basics) and recreated field and constructor injection in Restaurant domain.
+
+Assignments:
+
+If you have not done them already, go through the assignments from the previous classes and complete them.
+Especially these ones :
+
+1. Day 07 1 & 2
+2. Day 06 1 & 2
+3. Day 05 2
+4. Day 04 2
+5. Day 02 4
+
+Today's recording [Day 08 Recap](https://drive.google.com/file/d/1gmf9lSF8JN_0QsUQil_EtWeGWS7PbJ3z/view?usp=share_link).
 
 
