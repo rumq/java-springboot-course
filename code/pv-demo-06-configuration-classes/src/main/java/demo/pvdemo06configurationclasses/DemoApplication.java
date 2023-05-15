@@ -59,13 +59,13 @@ public class DemoApplication {
 		return new Circle("blue");
 	}
 
-	// Configure dependency technique 1 : call a bean method
+	// Configure dependency technique 1 : call another bean method
 	@Bean
 	Cylinder blueCylinder() {
 		return new Cylinder(blueCircle());
 	}
 
-	// Configure dependency technique 2 : pass as constructor argument
+	// Configure dependency technique 2 : pass as argument to method
 	@Bean
 	Cylinder redCylinder(Circle circle) {
 		return new Cylinder(circle);

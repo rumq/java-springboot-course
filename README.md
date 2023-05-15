@@ -156,6 +156,8 @@ Today's recording [Day 07 ch04 Bean Dependency Injection](https://drive.google.c
 
 ## Day 08 Recap
 
+01 May 23, Thursday
+
 We have done a recap of the topics we have covered so far.
 
 You'll also see how to create the constructor and the toString() method using IntelliJ IDEA generate command `ctrl-N`  or `command-N` for Mac.
@@ -175,4 +177,18 @@ Especially these ones :
 
 Today's recording [Day 08 Recap](https://drive.google.com/file/d/1gmf9lSF8JN_0QsUQil_EtWeGWS7PbJ3z/view?usp=share_link).
 
+## Day 09 ch06 Configuration classes
 
+15 May 23, Monday
+
+We looked at the assignments done and then proceeded to look at [06_Configuration_Classes slide](https://github.com/rumq/spring-boot-in-3-weeks/blob/master/slides/pdfs/06_Configuration_Classes.pptx.pdf).
+
+Assignment:
+1. Read the contents of the slides in 06, and do the exercise in the slides.
+2. Go through the examples from 06 chapter from both the repositories `spring-boot-in-3-weeks` and `java-springboot-course`, i.e., [demo-06-configurationclasses](https://github.com/rumq/spring-boot-in-3-weeks/tree/master/demos/demo-06-configuration-classes) and [pv-demo-06-configurationclasses](https://github.com/rumq/java-springboot-course/tree/main/code/pv-demo-06-configuration-classes).
+3. Try to recreate the examples in your domain.
+4. Go through [Assignment 1](https://github.com/rumq/spring-boot-in-3-weeks/blob/master/assignment-specs/Assignment1.docx) of the course. Let me know if you have any questions.You'll be doing it after the next class on 07_Spring_Boot_Techniques.
+
+In the next next class we'll look at the assignments and start with 07_Spring_Boot_Techniques.
+
+Today's recording [Day 09 ch06 Configuration classes](https://drive.google.com/file/d/1YmHccKE81jugVrsGAu2RN8DJuDcN5Ouq/view?usp=share_link)
