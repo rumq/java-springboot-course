@@ -192,3 +192,14 @@ Assignment:
 In the next next class we'll look at the assignments and start with 07_Spring_Boot_Techniques.
 
 Today's recording [Day 09 ch06 Configuration classes](https://drive.google.com/file/d/1YmHccKE81jugVrsGAu2RN8DJuDcN5Ouq/view?usp=share_link)
+
+## Day 10 ch06 Configuration classes continued
+
+We went through the rest of the slides in 06_Configuration_Classes.
+
+Assignment:
+
+1. Do the Assignment 1 from the course.
+
+Today's recording [Day 10 ch06 Configuration classes continued - update later]()
+
