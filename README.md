@@ -200,6 +200,7 @@ We went through the rest of the slides in 06_Configuration_Classes.
 Assignment:
 
 1. Do the Assignment 1 from the course.
+2. Go through ch07 slides.
 
-Today's recording [Day 10 ch06 Configuration classes continued - update later]()
+Today's recording [Day 10 ch06 Configuration classes continued ](https://drive.google.com/file/d/15lsOGxZSV0TF7MKOeNo8HRalzLa547vo/view?usp=share_link)
 
