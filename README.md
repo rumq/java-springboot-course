@@ -204,3 +204,12 @@ Assignment:
 
 Today's recording [Day 10 ch06 Configuration classes continued ](https://drive.google.com/file/d/15lsOGxZSV0TF7MKOeNo8HRalzLa547vo/view?usp=share_link)
 
+## Day 11 ch07 Spring Boot Techniques
+
+We went through the slides in 07_Spring_Boot_Techniques.
+
+Assignment:
+1. Go through the slides in 07_Spring_Boot_Techniques. Come prepared to demo the example on profiles.
+2. Continue with the Assignment 1 from the course.
+
+Today's recording [Day 11 ch07 Spring Boot Techniques - update link TODO]().
