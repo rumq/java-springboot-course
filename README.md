@@ -213,3 +213,12 @@ Assignment:
 2. Continue with the Assignment 1 from the course.
 
 Today's recording [Day 11 ch07 Spring Boot Techniques - update link TODO]().
+
+## Day 12 ch07 Spring Boot Techniques continued
+We went through some parts of the slides in 07_Spring_Boot_Techniques.
+Also we looked in more detailed the example created by the author for a better understanding and to gain the confidence on some important concepts in this chapter.
+
+Assignment:
+1. Go through the example created by PawarV about this chapter and see if everything is clear 
+2. Replicate the same example for a better understaning 
+3. Go through the exercise of this chapter and also in the Assignment1
