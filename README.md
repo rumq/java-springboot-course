@@ -1,9 +1,10 @@
 # Spring Boot Course
 
 ## Links
+
 - [Pages Home](pages/Home.md)
-  
-## Day 01 Introduction 
+
+## Day 01 Introduction
 
 18 Apr 23, Tuesday
 
@@ -40,7 +41,8 @@ Today's meeting is recorded. You can find it here [Spring Boot Day 01 Introducti
 
 Today we've gone through [04_Beans_Dependency](https://github.com/rumq/spring-boot-in-3-weeks/blob/master/slides/pdfs/04_Beans_DependencyInjection.pptx.pdf).
 
-#### Assignments 
+#### Assignments
+
 1. Go through the article [Dependency Injection Demystified](https://www.jamesshore.com/v2/blog/2006/dependency-injection-demystified)
 2. Go through the article [Composition, Aggregation, and Association in Java](https://www.baeldung.com/java-composition-aggregation-association).
 3. Pick a domain to build your Spring Boot app and start implementing what we are learning in the class. You'll show your app in the next class.
@@ -60,7 +62,7 @@ Today's meeting is recorded. You can find it here [Spring Boot Day 02 Bean Depen
 
 We've started looking at this example [pawarv-demo-02-basics](https://github.com/rumq/spring-boot-in-3-weeks/tree/master/pawarv/pawarv-demo-02-basics).
 
-We've seen that we need the following two dependencies in our `pom.xml` to enable 'live reload', i.e., the application restarts whenever we make any changes. 
+We've seen that we need the following two dependencies in our `pom.xml` to enable 'live reload', i.e., the application restarts whenever we make any changes.
 This helps us to see the changes we make in the code without having to restart the application manually.
 
 ```xml
@@ -78,9 +80,8 @@ This helps us to see the changes we make in the code without having to restart t
 Assignment:
 
 1. Go through the assignments from Day 02. Write answers to the questions in the corresponding markdown files Q001 to Q005.
-2. Try to understand the code in the example `pawarv-demo-02-basics` for the print statements until `08C`. 
-Come with questions for the class.
-
+2. Try to understand the code in the example `pawarv-demo-02-basics` for the print statements until `08C`.
+   Come with questions for the class.
 
 Today's meeting is recorded. You can find it here [Spring Boot Day 03 Basics Chapter 1 to 4](https://drive.google.com/file/d/1zsJtVfgeVuPQa3KpOBwRBmbcbu15hLq8/view?usp=share_link).
 
@@ -93,7 +94,6 @@ In the class we've started exercising the concepts we've learned from chapters 1
 We've done until 002 getting bean by type.
 
 We'll continue continue from there in the next class.
-
 
 Assignment:
 
@@ -114,22 +114,23 @@ We've done until 07 Constructor injection
 
 We'll continue from there in the next class.
 
-
 Assignment:
-1. Make the toString() method on the domain class more presentable using ```String.format``` and ```%s``` 
+
+1. Make the toString() method on the domain class more presentable using `String.format` and `%s`
 2. Try exercising 08 Qualifier, Collection, Map injection. Make the code ready on your personal domain for the next class.
 
 Today's recording [Day 05 Scope Autowiring and Constructor Injection](https://drive.google.com/file/d/1Y3LHAWUr9cS98DieaRuur_yd_IB9we5A/view?usp=sharing)
 
-## Day 06  Injection techniques
+## Day 06 Injection techniques
 
 In this class we have done 08 exercising collection, map and other injection techniques.
 
 We've partially done 09 Injecting values.
 
 Assignment:
+
 1. Try exercising 09 Injecting values.
-2. Read the slides 
+2. Read the slides
 
 Today's recording [Day 06 Injection Techniques](https://drive.google.com/file/d/1L6Mr5gjXsKK-etgta0m8FE2IbdQbysCa/view?usp=share_link)
 
@@ -145,12 +146,10 @@ You can look at the diagram from the class `3 Layers of a typical application ` 
 
 ![here](assets/BankService.png)
 
-
-
 Assignments:
+
 1. Do the assignment from 04_Beans_DependencyInjection slide.
 2. Try recreating the BankService and BankRepository example in your chosen domain. Look at the example in this repository [pv-demo-04-beans-dependencyinjection](code/pv-demo-04-beans-dependencyinjection/README.md) for a better understanding..
-
 
 Today's recording [Day 07 ch04 Bean Dependency Injection](https://drive.google.com/file/d/1TAr-eDEJNZmUlZW62VdvKZcj1ZMe7LCR/view?usp=share_link).
 
@@ -160,7 +159,7 @@ Today's recording [Day 07 ch04 Bean Dependency Injection](https://drive.google.c
 
 We have done a recap of the topics we have covered so far.
 
-You'll also see how to create the constructor and the toString() method using IntelliJ IDEA generate command `ctrl-N`  or `command-N` for Mac.
+You'll also see how to create the constructor and the toString() method using IntelliJ IDEA generate command `ctrl-N` or `command-N` for Mac.
 
 We looked at the example [pawarv-demo-02-basics](https://github.com/rumq/spring-boot-in-3-weeks/tree/master/pawarv/pawarv-demo-02-basics) and recreated field and constructor injection in Restaurant domain.
 
@@ -184,6 +183,7 @@ Today's recording [Day 08 Recap](https://drive.google.com/file/d/1gmf9lSF8JN_0Qs
 We looked at the assignments done and then proceeded to look at [06_Configuration_Classes slide](https://github.com/rumq/spring-boot-in-3-weeks/blob/master/slides/pdfs/06_Configuration_Classes.pptx.pdf).
 
 Assignment:
+
 1. Read the contents of the slides in 06, and do the exercise in the slides.
 2. Go through the examples from 06 chapter from both the repositories `spring-boot-in-3-weeks` and `java-springboot-course`, i.e., [demo-06-configurationclasses](https://github.com/rumq/spring-boot-in-3-weeks/tree/master/demos/demo-06-configuration-classes) and [pv-demo-06-configurationclasses](https://github.com/rumq/java-springboot-course/tree/main/code/pv-demo-06-configuration-classes).
 3. Try to recreate the examples in your domain.
@@ -209,16 +209,30 @@ Today's recording [Day 10 ch06 Configuration classes continued ](https://drive.g
 We went through the slides in 07_Spring_Boot_Techniques.
 
 Assignment:
+
 1. Go through the slides in 07_Spring_Boot_Techniques. Come prepared to demo the example on profiles.
 2. Continue with the Assignment 1 from the course.
 
-Today's recording [Day 11 ch07 Spring Boot Techniques - update link TODO]().
+Today's recording [Day 11 ch07 Spring Boot Techniques](https://drive.google.com/file/d/1QgiU5wK3IS9ho8lrVN2qo62x9Hxc1Ql3/view?usp=share_link).
 
 ## Day 12 ch07 Spring Boot Techniques continued
+
 We went through some parts of the slides in 07_Spring_Boot_Techniques.
 Also we looked in more detailed the example created by the author for a better understanding and to gain the confidence on some important concepts in this chapter.
 
 Assignment:
-1. Go through the example created by PawarV about this chapter and see if everything is clear 
-2. Replicate the same example for a better understaning 
+
+1. Go through the example created by PawarV about this chapter and see if everything is clear
+2. Replicate the same example for a better understanding
 3. Go through the exercise of this chapter and also in the Assignment1
+
+## Day 13 ch08 Integration Data Sources
+
+We went through the slides in 08_Integration_Data_Sources.
+
+Assignment:
+1. Go through the slides in 08_Integration_Data_Sources.
+2. Read the samples in the slides using your own domain
+3. Read slides in 09_Querying_Modifying_Entities.
+
+Today's recording [Day 13 ch08 Integration Data Sources](https://drive.google.com/file/d/1UIHg0D8hMFl2BcgpqtgPGCg_SMVa3fn1/view?usp=share_link).
