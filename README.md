@@ -228,6 +228,8 @@ Assignment:
 
 ## Day 13 ch08 Integration Data Sources
 
+On 5 June, Monday.
+
 We went through the slides in 08_Integration_Data_Sources.
 
 Assignment:
@@ -236,3 +238,36 @@ Assignment:
 3. Read slides in 09_Querying_Modifying_Entities.
 
 Today's recording [Day 13 ch08 Integration Data Sources](https://drive.google.com/file/d/1UIHg0D8hMFl2BcgpqtgPGCg_SMVa3fn1/view?usp=share_link).
+
+
+## Day 14 ch09 Querying Modifying Entities 01
+
+On 8 June, Thursday.
+
+We went through the slides in 09_Querying_Modifying_Entities.
+
+Assignment:
+1. Go through the slides in 09_Querying_Modifying_Entities.
+2. Recreate the examples in your own domain.
+
+
+## Day 15 ch09 Querying Modifying Entities 02
+
+On 12 June, Monday.
+
+We went through the the remaining examples - get all, get by id and insert.
+
+Some of the keyboard shortcuts used in the class are:
+1. F3 - to go to the definition of a method and alt-left to come back to the previous position
+2. ctrl-shift-enter - to put a ';' at the end of the line and go to the next line
+3. ctrl-enter - to go to the next line
+4. ctrl-1 - to show the list of options to fix the error
+
+Assignment:
+1. Go through the slides in 09_Querying_Modifying_Entities and complete the assignment at the end.
+2. Try making the following changes to the code and see the effects
+   1. Interchange getSingleResult() and getResultList() and see the effects. You'll also have to make changes to the code so that you don't have compilation errors.
+   2. Remove the @Transactional annotation and see the effects.
+3. Go through the slides in 10_JPA_Relationships as we will be doing this in the next class.
+
+
