@@ -258,10 +258,10 @@ On 12 June, Monday.
 We went through the the remaining examples - get all, get by id and insert.
 
 Some of the keyboard shortcuts used in the class are:
-1. F3 - to go to the definition of a method and alt-left to come back to the previous position
-2. ctrl-shift-enter - to put a ';' at the end of the line and go to the next line
-3. ctrl-enter - to go to the next line
-4. ctrl-1 - to show the list of options to fix the error
+1. `F3` - to go to the definition of a method and alt-left to come back to the previous position
+2. `ctrl-shift-enter` - to put a ';' at the end of the line and go to the next line
+3. `ctrl-enter` - to go to the next line
+4. `ctrl-1` - to show the list of options to fix the error
 
 Assignment:
 1. Go through the slides in 09_Querying_Modifying_Entities and complete the assignment at the end.
@@ -271,4 +271,4 @@ Assignment:
 3. Go through the slides in 10_JPA_Relationships as we will be doing this in the next class.
 
 
-Today's recording [Day 15 ch09 Querying Modifying Entities 02 - not updated yet](https://drive.google.com/file/d/ADD_HERE/view?usp=sharing).
+Today's recording [Day 15 ch09 Querying Modifying Entities 02](https://drive.google.com/file/d/1-NOo5KK1TyU0y821z9JsLIaJ9z8zOg6X/view?usp=drive_link).
