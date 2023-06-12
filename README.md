@@ -271,3 +271,4 @@ Assignment:
 3. Go through the slides in 10_JPA_Relationships as we will be doing this in the next class.
 
 
+Today's recording [Day 15 ch09 Querying Modifying Entities 02 - not updated yet](https://drive.google.com/file/d/ADD_HERE/view?usp=sharing).
