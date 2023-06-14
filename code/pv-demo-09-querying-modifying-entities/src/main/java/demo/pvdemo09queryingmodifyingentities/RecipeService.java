@@ -35,6 +35,6 @@ public class RecipeService {
     }
 
     public int updateSpiceLevel(String type, String spiceLevel){
-        return  repository.updateSpiceLevel(type, spiceLevel);
+        return repository.updateSpiceLevel(type, spiceLevel);
     }
 }
