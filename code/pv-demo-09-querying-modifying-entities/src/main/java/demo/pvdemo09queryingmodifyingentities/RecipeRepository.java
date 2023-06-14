@@ -2,6 +2,7 @@ package demo.pvdemo09queryingmodifyingentities;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
+import jakarta.persistence.Query;
 import jakarta.persistence.TypedQuery;
 import jakarta.transaction.Transactional;
 import org.springframework.stereotype.Repository;
@@ -45,5 +46,15 @@ public class RecipeRepository {
     public void deleteRecipe(int id) {
         Recipe recipe = entityManager.find(Recipe.class, id);
         entityManager.remove(recipe);
+    }
+
+    @Transactional
+    public int updateSpiceLevel(String type, String spiceLevel){
+        String jpql = "update Recipe set spiceLevel=:s where type=:t";
+        Query query = entityManager.createQuery(jpql);
+        query.setParameter("t", type);
+        query.setParameter("s", spiceLevel);
+        return query.executeUpdate();
+
     }
 }

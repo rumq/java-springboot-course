@@ -12,10 +12,30 @@ public class Recipe {
     private long recipeId = -1;
 
     private String name;
+    private String type;
+    private String spiceLevel;
 
-    public Recipe(long recipeId, String name) {
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public String getSpiceLevel() {
+        return spiceLevel;
+    }
+
+    public void setSpiceLevel(String spiceLevel) {
+        this.spiceLevel = spiceLevel;
+    }
+
+    public Recipe(long recipeId, String name, String type, String spiceLevel) {
         this.recipeId = recipeId;
         this.name = name;
+        this.type = type;
+        this.spiceLevel = spiceLevel;
     }
 
     public Recipe() {
@@ -42,12 +62,12 @@ public class Recipe {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Recipe recipe = (Recipe) o;
-        return recipeId == recipe.recipeId && Objects.equals(name, recipe.name);
+        return recipeId == recipe.recipeId && Objects.equals(name, recipe.name) && Objects.equals(type, recipe.type) && Objects.equals(spiceLevel, recipe.spiceLevel);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(recipeId, name);
+        return Objects.hash(recipeId, name, type, spiceLevel);
     }
 
     @Override
@@ -55,6 +75,8 @@ public class Recipe {
         return "Recipe{" +
                 "recipeId=" + recipeId +
                 ", name='" + name + '\'' +
+                ", type='" + type + '\'' +
+                ", spiceLevel='" + spiceLevel + '\'' +
                 '}';
     }
 }

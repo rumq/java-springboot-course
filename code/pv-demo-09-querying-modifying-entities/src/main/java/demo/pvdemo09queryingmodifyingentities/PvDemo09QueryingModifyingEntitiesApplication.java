@@ -27,23 +27,35 @@ public class PvDemo09QueryingModifyingEntitiesApplication {
         // C: Get all recipes
         List<Recipe> recipes = service.getRecipes();
         System.out.println("*******************");
-        System.out.println("** C: getRecipes " + recipes);
+        System.out.println("** C: getRecipes ");
+        service.getRecipes().forEach(System.out::println);
 
         // D: insert Recipe
-        Recipe newRecipe = new Recipe(-1, "Scrambled eggs");
+        Recipe newRecipe = new Recipe(-1, "Scrambled eggs", "NONVEG" , "LOW" );
         service.insertRecipe(newRecipe);
         System.out.println("*******************");
-        System.out.println("** D: insertRecipes " + service.getRecipes() );
+        System.out.println("** D: insertRecipes ");
+        service.getRecipes().forEach(System.out::println);
 
         // E: update Recipe
         service.updateRecipe(1, "Chicken Tikka Masala superior");
         System.out.println("*******************");
-        System.out.println("** E: updateRecipes " + service.getRecipes());
+        System.out.println("** E: updateRecipes " );
+        service.getRecipes().forEach(System.out::println);
 
         // F: delete Recipe
         service.deleteRecipe(2);
         System.out.println("*******************");
-        System.out.println("** F: deleteRecipes " + service.getRecipes());
+        System.out.println("** F: deleteRecipes " );
+        service.getRecipes().forEach(System.out::println);
+
+        // G: update using jpql with parameters
+        int rowsAffected = service.updateSpiceLevel("NONVEG", "HIGH");
+        System.out.println("*******************");
+        System.out.println("** G:  update using jpql with parameters" );
+        System.out.println("Rows affected : " + rowsAffected);
+        service.getRecipes().forEach(System.out::println);
+
 
 
 

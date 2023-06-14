@@ -33,4 +33,8 @@ public class RecipeService {
     public void deleteRecipe(int id) {
         repository.deleteRecipe(id);
     }
+
+    public int updateSpiceLevel(String type, String spiceLevel){
+        return  repository.updateSpiceLevel(type, spiceLevel);
+    }
 }
