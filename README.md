@@ -272,3 +272,17 @@ Assignment:
 
 
 Today's recording [Day 15 ch09 Querying Modifying Entities 02](https://drive.google.com/file/d/1-NOo5KK1TyU0y821z9JsLIaJ9z8zOg6X/view?usp=drive_link).
+
+# Day 16 ch10 Spring Data repositories
+
+On 15 June, Thursday.
+
+We went through the slides in 10_JPA_Relationships.
+
+Assignment:
+
+1. Go through the slides in 10_JPA_Relationships.
+2. Try to recreate the examples in your own domain.
+
+
+Today's recording [Day 16 ch10 Spring Data repositories](https://drive.google.com/file/d/1Ls2PNs7ccYiJKLxek-hpr0DLS-p19Zmv/view?usp=drive_link).
