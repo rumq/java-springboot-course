@@ -273,7 +273,7 @@ Assignment:
 
 Today's recording [Day 15 ch09 Querying Modifying Entities 02](https://drive.google.com/file/d/1-NOo5KK1TyU0y821z9JsLIaJ9z8zOg6X/view?usp=drive_link).
 
-# Day 16 ch10 Spring Data repositories
+## Day 16 ch10 Spring Data repositories
 
 On 15 June, Thursday.
 
@@ -286,3 +286,14 @@ Assignment:
 
 
 Today's recording [Day 16 ch10 Spring Data repositories](https://drive.google.com/file/d/1Ls2PNs7ccYiJKLxek-hpr0DLS-p19Zmv/view?usp=drive_link).
+
+## Day 17 ch10 Spring Data repositories 02
+
+On 19 June, Monday.
+
+We went through the the example pv-10-spring-data-repositories and try to recreate that in another domain - Hospital.
+
+Assignment:
+1. Try to recreate the example pv-10-spring-data-repositories in your own domain.
+
+Today's recording [Day 17 ch10 Spring Data repositories 02 -update later](https://drive.google.com/file/d/1Ls2PNs7ccYiJKLxek-hpr0DLS-p19Zmv/view?usp=drive_link).
