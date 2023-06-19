@@ -296,4 +296,4 @@ We went through the the example pv-10-spring-data-repositories and try to recrea
 Assignment:
 1. Try to recreate the example pv-10-spring-data-repositories in your own domain.
 
-Today's recording [Day 17 ch10 Spring Data repositories 02 -update later](https://drive.google.com/file/d/1Ls2PNs7ccYiJKLxek-hpr0DLS-p19Zmv/view?usp=drive_link).
+Today's recording [Day 17 ch10 Spring Data repositories 02](https://drive.google.com/file/d/1BVZ9PMzDcoaJP48jPBFYdcUsotScEZkP/view?usp=drive_link).
