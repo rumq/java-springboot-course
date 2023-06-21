@@ -25,14 +25,14 @@ public class Pv10SpringDataRepositoriesApplication {
         // C: Get all recipes
         List<Recipe> recipes = service.getRecipes();
         System.out.println("*******************");
-        System.out.println("** C: getRecipes ");
+        System.out.println("** C: getRecipes count " + recipes.size());
         service.getRecipes().forEach(System.out::println);
 
         // D: insert Recipe
         Recipe newRecipe = new Recipe(-1, "Scrambled eggs", "NONVEG" , "LOW" );
-        service.insertRecipe(newRecipe);
+        Recipe insertedRecipe = service.insertRecipe(newRecipe);
         System.out.println("*******************");
-        System.out.println("** D: insertRecipes ");
+        System.out.println("** D: insertRecipes " + insertedRecipe);
         service.getRecipes().forEach(System.out::println);
 
         // E: update Recipe
@@ -53,6 +53,18 @@ public class Pv10SpringDataRepositoriesApplication {
         System.out.println("** G:  update using jpql with parameters" );
         System.out.println("Rows affected : " + rowsAffected);
         service.getRecipes().forEach(System.out::println);
+
+        // **** Custom Queries
+        // H: get by type
+        List<Recipe> nonVegRecipes = service.getNonVegRecipes("NONVEG");
+
+        System.out.println("*******************");
+        System.out.println("** H Custom findBy" );
+        System.out.println("Rows returned : " + nonVegRecipes.size());
+        nonVegRecipes.forEach(System.out::println);
+
+
+
 
     }
 

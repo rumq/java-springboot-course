@@ -4,6 +4,7 @@ import jakarta.transaction.Transactional;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
+import java.util.List;
 
 public interface RecipeRepository extends CrudRepository<Recipe, Long> {
 
@@ -11,6 +12,8 @@ public interface RecipeRepository extends CrudRepository<Recipe, Long> {
     @Transactional
     @Query("update Recipe set spiceLevel=?2 where type=?1")
     int updateSpiceLevel(String type, String spiceLevel);
+
+    List<Recipe> findByType(String type);
 
 
 //    public int updateSpiceLevel(String type, String spiceLevel){

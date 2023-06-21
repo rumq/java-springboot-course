@@ -53,4 +53,10 @@ public class RecipeService {
        return repository.updateSpiceLevel(type, spiceLevel);
     }
 
+    public List<Recipe> getNonVegRecipes(String type) {
+
+        return repository.findByType(type);
+    }
+
+
 }
