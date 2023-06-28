@@ -3,6 +3,10 @@ package demo.pv10springdatarepositories;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 
 import java.util.List;
 
@@ -62,6 +66,23 @@ public class Pv10SpringDataRepositoriesApplication {
         System.out.println("** H Custom findBy" );
         System.out.println("Rows returned : " + nonVegRecipes.size());
         nonVegRecipes.forEach(System.out::println);
+
+        // *** Use of paging
+        // I:
+
+        Page<Recipe> pageOfRecipes =  service.getAPageOfRecipes();
+        System.out.println("*******************");
+        System.out.println("** I Use of paging - 1" );
+        System.out.println("Rows returned : " + pageOfRecipes.getContent().size());
+        System.out.println("Total pages " + pageOfRecipes.getTotalPages());
+        pageOfRecipes.getContent().forEach(System.out::println);
+
+        pageOfRecipes =  service.getAPageOfRecipes();
+        System.out.println("*********");
+        System.out.println("** I Use of paging - 2" );
+        System.out.println("Rows returned : " + pageOfRecipes.getContent().size());
+        System.out.println("Total pages " + pageOfRecipes.getTotalPages());
+        pageOfRecipes.getContent().forEach(System.out::println);
 
 
 

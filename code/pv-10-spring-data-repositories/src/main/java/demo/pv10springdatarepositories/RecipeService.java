@@ -1,11 +1,17 @@
 package demo.pv10springdatarepositories;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+
+import static org.springframework.data.domain.Sort.*;
 
 @Component
 public class RecipeService {
@@ -59,4 +65,10 @@ public class RecipeService {
     }
 
 
+    public Page<Recipe> getAPageOfRecipes() {
+        Pageable pageable = PageRequest.of(1, 2, Direction.ASC, "recipeId");
+        return repository.findByRecipeIdGreaterThan(2L, pageable);
+
+
+    }
 }

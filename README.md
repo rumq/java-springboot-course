@@ -297,3 +297,22 @@ Assignment:
 1. Try to recreate the example pv-10-spring-data-repositories in your own domain.
 
 Today's recording [Day 17 ch10 Spring Data repositories 02](https://drive.google.com/file/d/1BVZ9PMzDcoaJP48jPBFYdcUsotScEZkP/view?usp=drive_link).
+
+
+## Day 18 ch10 Spring Data repositories 03
+
+On 22 June, Thursday.
+
+We went through the the example pv-10-spring-data-repositories and try to recreate that in another domain - Hospital.
+
+Today's recording 
+- [Day 18 ch10 Spring Data repositories 03A](https://drive.google.com/file/d/1rj3OieaxwBkokDOXRuISjLgwVHWQXAq5/view?usp=drive_link)
+- [Day 18 ch10 Spring Data repositories 03B](https://drive.google.com/file/d/1IVbb776INhNGBKhZkqHyEddcb682OrIP/view?usp=drive_link)
+
+## Day 19 ch10 Spring Data repositories 04
+
+On 26 June, Monday.
+
+We went through the the example pv-10-spring-data-repositories and try to recreate that in another domain - Hospital.
+
+Today's recording [19 ch10 Spring Data repositories 04](https://drive.google.com/file/d/1IVbb776INhNGBKhZkqHyEddcb682OrIP/view?usp=drive_link)

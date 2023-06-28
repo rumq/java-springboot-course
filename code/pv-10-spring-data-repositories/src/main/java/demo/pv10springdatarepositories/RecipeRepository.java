@@ -1,6 +1,8 @@
 package demo.pv10springdatarepositories;
 
 import jakarta.transaction.Transactional;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
@@ -24,5 +26,8 @@ public interface RecipeRepository extends CrudRepository<Recipe, Long> {
 //        return query.executeUpdate();
 //
 //    }
+
+    Page<Recipe> findByRecipeIdGreaterThan(Long recipeId, Pageable pageable);
+
 
 }
