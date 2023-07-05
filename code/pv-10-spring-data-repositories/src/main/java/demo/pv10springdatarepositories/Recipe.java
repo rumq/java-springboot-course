@@ -2,15 +2,30 @@ package demo.pv10springdatarepositories;
 
 import jakarta.persistence.*;
 
+import java.time.OffsetDateTime;
+import java.util.Date;
 import java.util.Objects;
+
+import org.hibernate.annotations.CreationTimestamp;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 
 @Entity
 @Table(name = "RECIPES")
+@EnableAutoConfiguration
 public class Recipe {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long recipeId = -1;
+
+
+//    @Temporal(TemporalType.TIMESTAMP)
+//    @CreationTimestamp
+//    Date creationDateTime;
+
+    @Column(name = "CREATED_DATE_TIME", columnDefinition = "DATETIME(3)")
+    @CreationTimestamp
+    private OffsetDateTime createdDateTime;
 
     private String name;
     private String type;
@@ -71,13 +86,16 @@ public class Recipe {
         return Objects.hash(recipeId, name, type, spiceLevel);
     }
 
+
     @Override
-    public String toString() {
-        return "Recipe{" +
-                "recipeId=" + recipeId +
-                ", name='" + name + '\'' +
-                ", type='" + type + '\'' +
-                ", spiceLevel='" + spiceLevel + '\'' +
-                '}';
+    public String toString()
+    {
+        return "Recipe{"
+            + "recipeId=" + recipeId
+            + ", createdDateTime=" + createdDateTime
+            + ", name='" + name + '\''
+            + ", type='" + type + '\''
+            + ", spiceLevel='" + spiceLevel + '\''
+            + '}';
     }
 }
