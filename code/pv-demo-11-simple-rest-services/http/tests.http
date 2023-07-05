@@ -1,0 +1,10 @@
+GET http://localhost:8080/app/recipesV1
+###
+GET http://localhost:8080/app/recipesV2
+###
+GET http://localhost:8080/app/recipes/4
+###
+GET http://localhost:8080/app/recipes?min=7
+
+
+
