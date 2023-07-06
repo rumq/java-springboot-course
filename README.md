@@ -316,3 +316,26 @@ On 26 June, Monday.
 We went through the the example pv-10-spring-data-repositories and try to recreate that in another domain - Hospital.
 
 Today's recording [19 ch10 Spring Data repositories 04](https://drive.google.com/file/d/1IVbb776INhNGBKhZkqHyEddcb682OrIP/view?usp=drive_link)
+
+## Day 20 ch11 simple REST services
+
+On 03 July, Monday.
+
+We went through the slides & examples in 11_Simple_REST_Services.
+
+Today's recording
+- [Day 20 simple REST services](https://drive.google.com/file/d/1j17PP-9l4a_OuHlN9mfcKIDb5J5IY8kC/view?usp=drive_link)
+
+
+## Day 21 ch12 Full REST services
+
+On 06 July, Thursday.
+
+We went through the slides & examples in 12_Full_REST_Services 
+
+Today's recording
+- [Day 21 Full REST services TBD]()
+
+
+
+
