@@ -324,7 +324,7 @@ On 03 July, Monday.
 We went through the slides & examples in 11_Simple_REST_Services.
 
 Today's recording
-- [Day 20 simple REST services](https://drive.google.com/file/d/1j17PP-9l4a_OuHlN9mfcKIDb5J5IY8kC/view?usp=drive_link)
+- [Day 20 ch11 simple REST services](https://drive.google.com/file/d/1j17PP-9l4a_OuHlN9mfcKIDb5J5IY8kC/view?usp=drive_link)
 
 
 ## Day 21 ch12 Full REST services
@@ -334,8 +334,18 @@ On 06 July, Thursday.
 We went through the slides & examples in 12_Full_REST_Services 
 
 Today's recording
-- [Day 21 Full REST services TBD]()
+- [Day 21 ch12 Full REST services 01](https://drive.google.com/file/d/1euLJSAjZeXsPg2F3LFagKJGmKsb6dUMW/view?usp=drive_link)
 
 
+## Day 22 ch12 Full REST services 02
 
+On 20 July, Thursday.
+
+We went through post mapping in 12_Full_REST_Services.
+We also talked about how ResponseEntity can be used to return the status code and the body.
+It uses a builder pattern which helps us to chain the methods which allow us to set various properties of the response entity.
+For example it can be used to set the status code, headers, body etc.
+
+Today's recording
+- [Day 22 ch12 Full services 02](https://drive.google.com/file/d/1RPNN9kpOqjukWGnGGOm1dihDl_823J9k/view?usp=drive_link)
 
