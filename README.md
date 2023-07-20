@@ -346,6 +346,10 @@ We also talked about how ResponseEntity can be used to return the status code an
 It uses a builder pattern which helps us to chain the methods which allow us to set various properties of the response entity.
 For example it can be used to set the status code, headers, body etc.
 
+Assignment:
+1. Study the other methods PUT & DELETE and implement them and POST in your domain.
+2. Try to use a H2 database rather than the map for the repository. See examples from previous chapters to see how to do that.
+
 Today's recording
 - [Day 22 ch12 Full services 02](https://drive.google.com/file/d/1RPNN9kpOqjukWGnGGOm1dihDl_823J9k/view?usp=drive_link)
 
