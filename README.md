@@ -353,3 +353,19 @@ Assignment:
 Today's recording
 - [Day 22 ch12 Full services 02](https://drive.google.com/file/d/1RPNN9kpOqjukWGnGGOm1dihDl_823J9k/view?usp=drive_link)
 
+
+## Day 23 ch12 Full REST services 03
+
+On 27 July, Thursday.
+
+We looked at 
+- using H2 database instead of the map for the repository.
+- the examples in 12_Full_REST_Services exercising GET, PUT, POST & DELETE.
+- generating Swagger documentation for our REST services.
+
+Assignment:
+1. Try to recreate an example in your domain exercising PUT, POST & DELETE with an H2 database backend and generate Swagger documentation for your REST services.
+
+
+Today's recording
+- [Day 23 ch12 Full REST services 03 TBD]()
