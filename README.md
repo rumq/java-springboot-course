@@ -368,4 +368,4 @@ Assignment:
 
 
 Today's recording
-- [Day 23 ch12 Full REST services 03 TBD]()
+- [Day 23 ch12 Full REST services 03](https://drive.google.com/file/d/1OOvLDLS-z3gMU1XUNjpbCA9iLnBiRM8_/view?usp=drive_link)
