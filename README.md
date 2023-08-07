@@ -369,3 +369,26 @@ Assignment:
 
 Today's recording
 - [Day 23 ch12 Full REST services 03](https://drive.google.com/file/d/1OOvLDLS-z3gMU1XUNjpbCA9iLnBiRM8_/view?usp=drive_link)
+
+## Day 24 ch13 Consuming REST Services
+
+On 31 July, Monday.
+
+We looked at
+- consuming REST services using RestTemplate
+- examples in 13_Consuming_REST_Services
+
+
+Today's recording
+- [Day 24 ch13 Consuming REST Services](https://drive.google.com/file/d/1MeJm-lko4ju3-AWu07IRXTzEsTjsYng0/view?usp=drive_link)
+
+# Day 25 ch14 Messaging Kafka
+
+On 07 August, Monday.
+
+We looked at
+- messaging using Kafka
+- examples in 14_Messaging_Kafka
+
+Today's recording
+- [Day 25 ch14 Messaging Kafka](https://)
